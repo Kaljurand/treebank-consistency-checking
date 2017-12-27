@@ -1,0 +1,2962 @@
+#FORMAT 3
+#BOT ORIGIN
+0	--	%% 
+1	RC.F.J.001	%% Referenzkorpus: Frankfurter Rundschau
+2	RC.F.J.010	%% Referenzkorpus: Frankfurter Rundschau
+3	RC.F.C.004	%% Referenzkorpus: Frankfurter Rundschau
+4	RC.F.J.002	%% Referenzkorpus: Frankfurter Rundschau
+5	RC.F.C.005	%% Referenzkorpus: Frankfurter Rundschau
+6	RC.F.C.001	%% Referenzkorpus: Frankfurter Rundschau
+7	RC.F.C.002	%% Referenzkorpus: Frankfurter Rundschau
+8	RC.F.J.003	%% Referenzkorpus: Frankfurter Rundschau
+9	RC.F.J.011	%% Referenzkorpus: Frankfurter Rundschau
+10	RC.F.C.006	%% Referenzkorpus: Frankfurter Rundschau
+11	RC.F.C.007	%% Referenzkorpus: Frankfurter Rundschau
+12	RC.L.J.005	%% Referenzkorpus: Frankfurter Rundschau
+13	RC.L.J.001	%% Referenzkorpus: Frankfurter Rundschau
+14	RC.L.J.002	%% Referenzkorpus: Frankfurter Rundschau
+15	RC.L.A.003	%% Referenzkorpus: Frankfurter Rundschau
+#EOT ORIGIN
+#BOT EDITOR
+-1	__-1		<Automatisch>
+0	__0		<Nicht_zugeordnet>
+2	thorsten	Thorsten
+3	skut		Wojciech
+5	bps		Bernd
+6	thomas		Thomas
+8	roland		Roland
+9	kekl		Kerstin
+12	meike		Meike
+15	kramp		Sabine
+#EOT EDITOR
+#BOT WORDTAG
+-1	UNKNOWN	N	Unbekanntes Tag aus Einlesen aus Korpusdatei
+0	--	N	<Nicht zugeordnet>
+1	ADJA	Y	Attributives Adjektiv
+2	ADJD	Y	Adverbiales oder prädikatives Adjektiv
+3	ADV	Y	Adverb
+4	APPR	Y	Präposition; Zirkumposition links
+5	APPRART	Y	Präposition mit Artikel
+6	APPO	Y	Postposition
+7	APZR	Y	Zirkumposition rechts
+8	ART	Y	Bestimmter oder unbestimmter Artikel
+9	CARD	Y	Kardinalzahl
+10	FM	Y	Fremdsprachliches Material
+11	ITJ	Y	Interjektion
+12	KOUI	Y	Unterordnende Konjunktion mit zu und Infinitiv
+13	KOUS	Y	Unterordnende Konjunktion mit Satz
+14	KON	Y	Nebenordnende Konjunktion
+15	KOKOM	Y	Vergleichspartikel, ohne Satz
+16	NN	Y	Normales Nomen
+17	NE	Y	Eigennamen Hans*Hamburg*HSV
+18	PDS	Y	Substituierendes Demonstrativpronomen
+19	PDAT	Y	Attribuierendes Demonstrativpronomen
+20	PIS	Y	Substituierendes Indefinitpronomen
+21	PIAT	Y	Attribuierendes Indefinitpronomen
+22	PIDAT	Y	Attribuierendes Indefinitpronomen mit Determiner
+23	PPER	Y	Irreflexives Personalpronomen
+24	PPOSS	Y	Substituierendes Possessivpronomen
+25	PPOSAT	Y	Attribuierendes Possessivpronomen
+26	PRELS	Y	Substituierendes Relativpronomen
+27	PRELAT	Y	Attribuierendes Relativpronomen
+28	PRF	Y	Reflexives Personalpronomen
+29	PWS	Y	Substituierendes Interrogativpronomen
+30	PWAT	Y	Attribuierendes Interrogativpronomen
+31	PWAV	Y	Adverbiales Interrogativ- oder Relativpronomen
+32	PROAV	Y	Pronominaladverb
+33	PTKZU	Y	zu vor Infinitiv
+34	PTKNEG	Y	Negationspartikel
+35	PTKVZ	Y	Abgetrennter Verbzusatz
+36	PTKANT	Y	Antwortpartikel
+37	PTKA	Y	Partikel bei Adjektiv oder Adverb
+38	TRUNC	Y	Kompositions-Erstglied
+39	VVFIN	Y	Finites Verb, voll
+40	VVIMP	Y	Imperativ, voll
+41	VVINF	Y	Infinitiv, voll
+42	VVIZU	Y	Infinitiv mit zu, voll
+43	VVPP	Y	Partizip Perfekt, voll
+44	VAFIN	Y	Finites Verb, aux
+45	VAIMP	Y	Imperativ, aux
+46	VAINF	Y	Infinitiv, aux
+47	VAPP	Y	Partizip Perfekt, aux
+48	VMFIN	Y	Finites Verb, modal
+49	VMINF	Y	Infinitiv, modal
+50	VMPP	Y	Partizip Perfekt, modal
+51	XY	Y	Nichtwort, Sonderzeichen
+52	$,	N	Komma
+53	$.	N	Satzbeendende Interpunktion
+54	$(	N	Sonstige Satzzeichen; satzintern
+55	$:	N	Satzintern verwendete .:; etc.
+#EOT WORDTAG
+#BOT MORPHTAG
+-1	UNKNOWN	unknown tag
+0	--	not bound
+1	*	-
+2	*.*.*	-
+3	*.*.*.*.*	-
+4	*.*.Akk.Pl.St	-
+5	*.*.Akk.Pl.Sw	-
+6	*.*.Dat.Pl.St	-
+7	*.*.Dat.Pl.Sw	-
+8	*.*.Gen.Pl.St	-
+9	*.*.Gen.Pl.Sw	-
+10	*.*.Nom.Pl.St	-
+11	*.*.Nom.Pl.Sw	-
+12	*.Akk.Pl	-
+13	*.Akk.Pl.*	-
+14	*.Akk.Pl.St	-
+15	*.Akk.Pl.Sw	-
+16	*.Akk.Sg	-
+17	*.Akk.Sg.St	-
+18	*.Dat.Pl	-
+19	*.Dat.Pl.*	-
+20	*.Dat.Pl.St	-
+21	*.Dat.Pl.Sw	-
+22	*.Dat.Sg	-
+23	*.Fem.Akk.Sg.Mix	-
+24	*.Fem.Akk.Sg.St	-
+25	*.Fem.Akk.Sg.Sw	-
+26	*.Fem.Dat.Sg.Mix	-
+27	*.Fem.Dat.Sg.St	-
+28	*.Fem.Dat.Sg.Sw	-
+29	*.Fem.Gen.Sg.Sw	-
+30	*.Fem.Nom.Sg.St	-
+31	*.Fem.Nom.Sg.Sw	-
+32	*.Gen.Pl	-
+33	*.Gen.Pl.*	-
+34	*.Gen.Pl.St	-
+35	*.Gen.Pl.Sw	-
+36	*.Gen.Sg	-
+37	*.Masc.Akk.Sg.Mix	-
+38	*.Masc.Akk.Sg.Sw	-
+39	*.Masc.Dat.Sg.Mix	-
+40	*.Masc.Dat.Sg.Sw	-
+41	*.Masc.Gen.Sg.Mix	-
+42	*.Masc.Gen.Sg.Sw	-
+43	*.Masc.Nom.Sg.Mix	-
+44	*.Masc.Nom.Sg.St	-
+45	*.Masc.Nom.Sg.Sw	-
+46	*.Neut.Akk.Sg.Sw	-
+47	*.Neut.Dat.Sg.Mix	-
+48	*.Neut.Dat.Sg.Sw	-
+49	*.Neut.Gen.Sg.Sw	-
+50	*.Neut.Nom.Sg.Mix	-
+51	*.Neut.Nom.Sg.St	-
+52	*.Neut.Nom.Sg.Sw	-
+53	*.Nom.Pl	-
+54	*.Nom.Pl.*	-
+55	*.Nom.Pl.Mix	-
+56	*.Nom.Pl.St	-
+57	*.Nom.Pl.Sw	-
+58	*.Nom.Sg	-
+59	1.Akk.Pl	-
+60	1.Akk.Sg	-
+61	1.Dat.Pl	-
+62	1.Dat.Sg	-
+63	1.Pl.*.Akk	-
+64	1.Pl.*.Dat	-
+65	1.Pl.*.Nom	-
+66	1.Pl.Past.Ind	-
+67	1.Pl.Past.Konj	-
+68	1.Pl.Pres.Ind	-
+69	1.Sg.*.Akk	-
+70	1.Sg.*.Dat	-
+71	1.Sg.*.Nom	-
+72	1.Sg.Past.Ind	-
+73	1.Sg.Past.Konj	-
+74	1.Sg.Pres.Ind	-
+75	1.Sg.Pres.Konj	-
+76	2.Akk.Sg	-
+77	2.Dat.Sg	-
+78	2.Pl.*.Nom	-
+79	2.Pl.Pres.Ind	-
+80	2.Sg.*.Akk	-
+81	2.Sg.*.Dat	-
+82	2.Sg.*.Nom	-
+83	2.Sg.Past.Ind	-
+84	2.Sg.Pres.Ind	-
+85	2.Sg.Pres.Konj	-
+86	3.Akk.Pl	-
+87	3.Akk.Sg	-
+88	3.Dat.Pl	-
+89	3.Dat.Sg	-
+90	3.Pl.*.Akk	-
+91	3.Pl.*.Dat	-
+92	3.Pl.*.Nom	-
+93	3.Pl.Past.Ind	-
+94	3.Pl.Past.Konj	-
+95	3.Pl.Pres.Ind	-
+96	3.Pl.Pres.Konj	-
+97	3.Sg.Fem.Akk	-
+98	3.Sg.Fem.Dat	-
+99	3.Sg.Fem.Nom	-
+100	3.Sg.Masc.Akk	-
+101	3.Sg.Masc.Dat	-
+102	3.Sg.Masc.Nom	-
+103	3.Sg.Neut.Akk	-
+104	3.Sg.Neut.Nom	-
+105	3.Sg.Past.Ind	-
+106	3.Sg.Past.Konj	-
+107	3.Sg.Pres.Ind	-
+108	3.Sg.Pres.Konj	-
+109	Akk	-
+110	Akk.Neut	-
+111	Comp	-
+112	Comp.*.Akk.Pl.Mix	-
+113	Comp.*.Akk.Pl.St	-
+114	Comp.*.Dat.Pl.St	-
+115	Comp.*.Dat.Pl.Sw	-
+116	Comp.*.Gen.Pl.St	-
+117	Comp.*.Nom.Pl.St	-
+118	Comp.*.Nom.Pl.Sw	-
+119	Comp.Fem.Akk.Sg.Mix	-
+120	Comp.Fem.Akk.Sg.St	-
+121	Comp.Fem.Akk.Sg.Sw	-
+122	Comp.Fem.Dat.Sg.Mix	-
+123	Comp.Fem.Dat.Sg.St	-
+124	Comp.Fem.Dat.Sg.Sw	-
+125	Comp.Fem.Gen.Sg.Mix	-
+126	Comp.Fem.Gen.Sg.Sw	-
+127	Comp.Fem.Nom.Sg.Mix	-
+128	Comp.Fem.Nom.Sg.Sw	-
+129	Comp.Masc.Akk.Sg.Mix	-
+130	Comp.Masc.Akk.Sg.St	-
+131	Comp.Masc.Akk.Sg.Sw	-
+132	Comp.Masc.Dat.Sg.Mix	-
+133	Comp.Masc.Dat.Sg.St	-
+134	Comp.Masc.Dat.Sg.Sw	-
+135	Comp.Masc.Nom.Sg.Mix	-
+136	Comp.Masc.Nom.Sg.St	-
+137	Comp.Masc.Nom.Sg.Sw	-
+138	Comp.Neut.Akk.Sg.Mix	-
+139	Comp.Neut.Akk.Sg.St	-
+140	Comp.Neut.Akk.Sg.Sw	-
+141	Comp.Neut.Dat.Sg.Mix	-
+142	Comp.Neut.Dat.Sg.St	-
+143	Comp.Neut.Nom.Sg.Mix	-
+144	Comp.Neut.Nom.Sg.Sw	-
+145	Dat	-
+146	Dat.Fem	-
+147	Dat.Masc	-
+148	Dat.Neut	-
+149	Def.*.Akk.Pl	-
+150	Def.*.Dat.Pl	-
+151	Def.*.Gen.Pl	-
+152	Def.*.Nom.Pl	-
+153	Def.Fem.Akk.Sg	-
+154	Def.Fem.Dat.Sg	-
+155	Def.Fem.Gen.Sg	-
+156	Def.Fem.Nom.Sg	-
+157	Def.Masc.Akk.Sg	-
+158	Def.Masc.Dat.Sg	-
+159	Def.Masc.Gen.Sg	-
+160	Def.Masc.Nom.Sg	-
+161	Def.Neut.Akk.Sg	-
+162	Def.Neut.Dat.Sg	-
+163	Def.Neut.Gen.Sg	-
+164	Def.Neut.Nom.Sg	-
+165	Fem.Akk.Pl.*	-
+166	Fem.Akk.Sg	-
+167	Fem.Akk.Sg.*	-
+168	Fem.Akk.Sg.St	-
+169	Fem.Dat.Pl	-
+170	Fem.Dat.Pl.*	-
+171	Fem.Dat.Sg	-
+172	Fem.Dat.Sg.*	-
+173	Fem.Dat.Sg.Mix	-
+174	Fem.Dat.Sg.Sw	-
+175	Fem.Gen.Pl.*	-
+176	Fem.Gen.Sg	-
+177	Fem.Gen.Sg.*	-
+178	Fem.Gen.Sg.Mix	-
+179	Fem.Nom.Pl.*	-
+180	Fem.Nom.Sg	-
+181	Fem.Nom.Sg.*	-
+182	Fem.Nom.Sg.St	-
+183	Fem.Nom.Sg.Sw	-
+184	Gen	-
+185	Indef.Fem.Akk.Sg	-
+186	Indef.Fem.Dat.Sg	-
+187	Indef.Fem.Gen.Sg	-
+188	Indef.Fem.Nom.Sg	-
+189	Indef.Masc.Akk.Sg	-
+190	Indef.Masc.Dat.Sg	-
+191	Indef.Masc.Gen.Sg	-
+192	Indef.Masc.Nom.Sg	-
+193	Indef.Neut.Akk.Sg	-
+194	Indef.Neut.Dat.Sg	-
+195	Indef.Neut.Gen.Sg	-
+196	Indef.Neut.Nom.Sg	-
+197	Masc.Akk.Pl	-
+198	Masc.Akk.Pl.*	-
+199	Masc.Akk.Pl.St	-
+200	Masc.Akk.Sg	-
+201	Masc.Akk.Sg.*	-
+202	Masc.Akk.Sg.Mix	-
+203	Masc.Akk.Sg.Sw	-
+204	Masc.Dat.Pl	-
+205	Masc.Dat.Pl.*	-
+206	Masc.Dat.Pl.St	-
+207	Masc.Dat.Sg	-
+208	Masc.Dat.Sg.*	-
+209	Masc.Dat.Sg.Sw	-
+210	Masc.Gen.Pl	-
+211	Masc.Gen.Pl.*	-
+212	Masc.Gen.Sg	-
+213	Masc.Gen.Sg.*	-
+214	Masc.Gen.Sg.Mix	-
+215	Masc.Gen.Sg.Sw	-
+216	Masc.Nom.Pl.*	-
+217	Masc.Nom.Sg	-
+218	Masc.Nom.Sg.*	-
+219	Masc.Nom.Sg.Mix	-
+220	Masc.Nom.Sg.St	-
+221	Masc.Nom.Sg.Sw	-
+222	Neut.Akk.Pl.*	-
+223	Neut.Akk.Sg	-
+224	Neut.Akk.Sg.*	-
+225	Neut.Akk.Sg.St	-
+226	Neut.Akk.Sg.Sw	-
+227	Neut.Dat.Pl.*	-
+228	Neut.Dat.Sg	-
+229	Neut.Dat.Sg.*	-
+230	Neut.Dat.Sg.St	-
+231	Neut.Dat.Sg.Sw	-
+232	Neut.Gen.Pl.*	-
+233	Neut.Gen.Sg	-
+234	Neut.Gen.Sg.*	-
+235	Neut.Gen.Sg.Mix	-
+236	Neut.Gen.Sg.Sw	-
+237	Neut.Nom.Pl.*	-
+238	Neut.Nom.Sg	-
+239	Neut.Nom.Sg.*	-
+240	Neut.Nom.Sg.St	-
+241	Neut.Nom.Sg.Sw	-
+242	Pl	-
+243	Pos	-
+244	Pos.*.*.*.*	-
+245	Pos.*.Akk.Pl.Mix	-
+246	Pos.*.Akk.Pl.St	-
+247	Pos.*.Akk.Pl.Sw	-
+248	Pos.*.Dat.Pl.Mix	-
+249	Pos.*.Dat.Pl.St	-
+250	Pos.*.Dat.Pl.Sw	-
+251	Pos.*.Gen.Pl.Mix	-
+252	Pos.*.Gen.Pl.St	-
+253	Pos.*.Gen.Pl.Sw	-
+254	Pos.*.Nom.Pl.Mix	-
+255	Pos.*.Nom.Pl.St	-
+256	Pos.*.Nom.Pl.Sw	-
+257	Pos.Fem.Akk.Sg.Mix	-
+258	Pos.Fem.Akk.Sg.St	-
+259	Pos.Fem.Akk.Sg.Sw	-
+260	Pos.Fem.Dat.Sg.Mix	-
+261	Pos.Fem.Dat.Sg.St	-
+262	Pos.Fem.Dat.Sg.Sw	-
+263	Pos.Fem.Gen.Sg.Mix	-
+264	Pos.Fem.Gen.Sg.St	-
+265	Pos.Fem.Gen.Sg.Sw	-
+266	Pos.Fem.Nom.Sg.Mix	-
+267	Pos.Fem.Nom.Sg.St	-
+268	Pos.Fem.Nom.Sg.Sw	-
+269	Pos.Masc.Akk.Sg.Mix	-
+270	Pos.Masc.Akk.Sg.St	-
+271	Pos.Masc.Akk.Sg.Sw	-
+272	Pos.Masc.Dat.Sg.Mix	-
+273	Pos.Masc.Dat.Sg.St	-
+274	Pos.Masc.Dat.Sg.Sw	-
+275	Pos.Masc.Gen.Sg.Mix	-
+276	Pos.Masc.Gen.Sg.St	-
+277	Pos.Masc.Gen.Sg.Sw	-
+278	Pos.Masc.Nom.Sg.Mix	-
+279	Pos.Masc.Nom.Sg.St	-
+280	Pos.Masc.Nom.Sg.Sw	-
+281	Pos.Neut.Akk.Sg.Mix	-
+282	Pos.Neut.Akk.Sg.St	-
+283	Pos.Neut.Akk.Sg.Sw	-
+284	Pos.Neut.Dat.Sg.Mix	-
+285	Pos.Neut.Dat.Sg.St	-
+286	Pos.Neut.Dat.Sg.Sw	-
+287	Pos.Neut.Gen.Sg.Mix	-
+288	Pos.Neut.Gen.Sg.St	-
+289	Pos.Neut.Gen.Sg.Sw	-
+290	Pos.Neut.Nom.Sg.Mix	-
+291	Pos.Neut.Nom.Sg.St	-
+292	Pos.Neut.Nom.Sg.Sw	-
+293	Sg	-
+294	Sup	-
+295	Sup.*.Akk.Pl.St	-
+296	Sup.*.Akk.Pl.Sw	-
+297	Sup.*.Dat.Pl.St	-
+298	Sup.*.Dat.Pl.Sw	-
+299	Sup.*.Gen.Pl.Sw	-
+300	Sup.*.Nom.Pl.Mix	-
+301	Sup.*.Nom.Pl.Sw	-
+302	Sup.Fem.Akk.Sg.St	-
+303	Sup.Fem.Akk.Sg.Sw	-
+304	Sup.Fem.Dat.Sg.Mix	-
+305	Sup.Fem.Dat.Sg.St	-
+306	Sup.Fem.Dat.Sg.Sw	-
+307	Sup.Fem.Gen.Sg.St	-
+308	Sup.Fem.Gen.Sg.Sw	-
+309	Sup.Fem.Nom.Sg.Mix	-
+310	Sup.Fem.Nom.Sg.St	-
+311	Sup.Fem.Nom.Sg.Sw	-
+312	Sup.Masc.Akk.Sg.St	-
+313	Sup.Masc.Akk.Sg.Sw	-
+314	Sup.Masc.Dat.Sg.Mix	-
+315	Sup.Masc.Dat.Sg.Sw	-
+316	Sup.Masc.Gen.Sg.Sw	-
+317	Sup.Masc.Nom.Sg.Mix	-
+318	Sup.Masc.Nom.Sg.St	-
+319	Sup.Masc.Nom.Sg.Sw	-
+320	Sup.Neut.Akk.Sg.Mix	-
+321	Sup.Neut.Akk.Sg.Sw	-
+322	Sup.Neut.Dat.Sg.Sw	-
+323	Sup.Neut.Gen.Sg.St	-
+324	Sup.Neut.Nom.Sg.St	-
+325	Sup.Neut.Nom.Sg.Sw	-
+326	Nom-Akk	Akkusativ oder Nominativ
+327	Dat-Akk	Dativ order Akkusativ
+328	Nom-Dat-Akk	Dativ oder Akkusativ oder Nominativ
+329	Gen-Dat	Dativ oder Genitiv
+330	Nom	Nominativ
+#EOT MORPHTAG
+#BOT NODETAG
+0	--	<not bound>
+1	NP	noun phrase
+2	AP	adjektive phrase
+3	PP	adpositional phrase
+4	S	sentence
+5	VP	verb phrase (non-finite)
+6	VZ	zu-marked infinitive
+7	CO	coordination
+8	AVP	adverbial phrase
+9	AA	superlative phrase with "am"
+10	CNP	coordinated noun phrase
+11	CAP	coordinated adjektive phrase
+12	CPP	coordinated adpositional phrase
+13	CS	coordinated sentence
+14	CVP	coordinated verb phrase (non-finite)
+15	CVZ	coordinated zu-marked infinitive
+16	CAVP	coordinated adverbial phrase
+17	MPN	multi-word proper noun
+18	NM	multi-token number
+19	CAC	coordinated adposition
+20	CH	chunk
+21	MTA	multi-token adjective
+22	CCP	coordinated complementiser
+23	DL	discourse level constituent
+24	ISU	idiosyncratis unit
+25	QL	quasi-languag
+#EOT NODETAG
+#BOT EDGETAG
+0	--	<not bound>
+1	HD	head
+2	CJ	conjunct
+3	NK	noun kernel modifier
+4	MNR	postnominal modifier
+5	GL	prenominal genitive
+6	GR	postnominal genitive
+7	CM	comparative concjunction
+8	PG	pseudo-genitive
+9	RC	relative clause
+10	--	not bound
+11	VO	vocative
+12	AMS	measure argument of adj
+13	CC	comparative complement
+14	MR	rhetorical modifier
+15	SB	subject
+16	PD	predicate
+17	SP	subject or predicate
+18	OC	clausal object
+19	OA	accusative object
+20	OA2	second accusative object
+21	DA	dative
+22	OG	genitive object
+23	UC	(idiosyncratic) unit component
+24	APP	apposition
+25	PM	morphological particle
+26	CP	complementizer
+27	NMC	numerical component
+28	DM	discourse marker
+29	ML	locative
+30	MI	instrumental
+31	MC	comitative
+32	MO	modifier
+33	AC	adpositional case marker
+34	CD	coordinating conjunction
+35	SVP	separable verb prefix
+36	NG	negation
+37	RE	repeated element
+38	SBP	passivised subject (PP)
+39	PH	placeholder
+40	PNC	proper noun component
+41	AVC	adverbial phrase component
+42	ADC	adjective component
+43	MW	way (directional modifier)
+44	DH	discourse-level head
+45	RS	reported speech
+46	--	--
+47	--	--
+48	JU	junctor
+#EOT EDGETAG
+#BOT SECEDGETAG
+0	--	<not bound>
+1	HD	head
+2	CJ	conjunct
+3	NK	noun kernel modifier
+4	MNR	postnominal modifier
+5	GL	prenominal genitive
+6	GR	postnominal genitive
+7	CM	comparative concjunction
+8	PG	pseudo-genitive
+9	RC	relative clause
+10	--	not bound
+11	VO	vocative
+12	AMS	measure argument of adj
+13	CC	comparative complement
+14	MR	rhetorical modifier
+15	SB	subject
+16	PD	predicate
+17	SP	subject or predicate
+18	OC	clausal object
+19	OA	accusative object
+20	OA2	second accusative object
+21	DA	dative
+22	OG	genitive object
+23	UC	(idiosyncratic) unit component
+24	APP	apposition
+25	PM	morphological particle
+26	CP	complementizer
+27	NMC	numerical component
+28	DM	discourse marker
+29	ML	locative
+30	MI	instrumental
+31	MC	comitative
+32	MO	modifier
+33	AC	adpositional case marker
+34	CD	coordinating conjunction
+35	SVP	separable verb prefix
+36	NG	negation
+37	RE	repeated element
+38	SBP	passivised subject (PP)
+39	PH	placeholder
+40	PNC	proper noun component
+41	AVC	adverbial phrase component
+42	ADC	adjective component
+43	MW	way (directional modifier)
+44	DH	discourse-level head
+45	RS	reported speech
+46	--	--
+47	--	--
+48	JU	junctor
+#EOT SECEDGETAG
+%% word			tag	morph		edge	parent	secedge comment
+#BOS 2 2 899973978 1
+Sie			PPER	3.Pl.*.Nom	SB	504
+gehen			VVFIN	3.Pl.Pres.Ind	HD	504
+gewagte			ADJA	Pos.*.Akk.Pl.St	NK	500
+Verbindungen		NN	Fem.Akk.Pl.*	NK	500
+und			KON	--		CD	502
+Risiken			NN	Neut.Akk.Pl.*	CJ	502
+ein			PTKVZ	--		SVP	504
+,			$,	--		--	0
+versuchen		VVFIN	3.Pl.Pres.Ind	HD	505
+ihre			PPOSAT	*.Akk.Pl	NK	501
+Möglichkeiten		NN	Fem.Akk.Pl.*	NK	501
+auszureizen		VVIZU	--		HD	503
+.			$.	--		--	0
+#500			NP	--		CJ	502
+#501			NP	--		OA	503
+#502			CNP	--		OA	504
+#503			VP	--		OC	505
+#504			S	--		CJ	506
+#505			S	--		CJ	506
+#506			CS	--		--	0
+#EOS 2
+#BOS 3 3 867229898 1
+Folklore		NN	Fem.Akk.Sg.*	CJ	500
+,			$,	--		--	0
+Rock			NN	Masc.Akk.Sg.*	CJ	500
+,			$,	--		--	0
+Klassik			NN	Fem.Akk.Sg.*	CJ	500
+und			KON	--		CD	500
+Jazz			NN	Masc.Akk.Sg.*	CJ	500
+zu			PTKZU	--		PM	501
+vermischen		VVINF	--		HD	501
+reicht			VVFIN	3.Sg.Pres.Ind	HD	507
+ihnen			PPER	3.Pl.*.Dat	DA	507
+nicht			PTKNEG	--		NG	507
+,			$,	--		--	0
+sie			PPER	3.Pl.*.Nom	SB	505
+nutzen			VVFIN	3.Pl.Pres.Ind	HD	505
+die			ART	Def.Fem.Akk.Sg	NK	502
+Elektronik		NN	Fem.Akk.Sg.*	NK	502
+und			KON	--		CD	511
+sind			VAFIN	3.Pl.Pres.Ind	HD	510
+sogar			ADV	--		MO	509
+dazu			PROAV	--		PH	508
+übergegangen		VVPP	--		HD	509
+,			$,	--		--	0
+Instrumente		NN	Neut.Akk.Pl.*	OA	506
+selbst			ADV	--		MO	506
+zu			PTKZU	--		PM	503
+bauen			VVINF	--		HD	503
+.			$.	--		--	0
+#500			CNP	--		OA	504
+#501			VP	--		HD	504	%% kaarel: VZ --> VP
+#502			NP	--		OA	505
+#503			VP	--		HD	506	%% kaarel: VZ --> VP
+#504			VP	--		SB	507
+#505			S	--		CJ	511
+#506			VP	--		RE	508
+#507			S	--		CJ	511
+#508			PP	--		MO	509
+#509			VP	--		OC	510
+#510			S	--		CJ	511
+#511			CS	--		--	0
+#EOS 3
+#BOS 4 3 891268022 1
+Es			PPER	3.Sg.Neut.Nom	PH	507
+spielt			VVFIN	3.Sg.Pres.Ind	HD	509
+eben			ADV	--		MO	509
+keine			PIAT	Fem.Akk.Sg	NK	500
+Rolle			NN	Fem.Akk.Sg.*	NK	500
+,			$,	--		--	0
+ob			KOUS	--		CP	504
+die			ART	Def.Fem.Nom.Sg	NK	501
+Musik			NN	Fem.Nom.Sg.*	NK	501
+gefällig		ADJD	Pos		PD	504
+ist			VAFIN	3.Sg.Pres.Ind	HD	504
+-			$(	--		--	0
+nur			ADV	--		MO	510
+etwas			PIAT	*.*.*		NK	502
+"			$(	--		--	0
+Neues			NN	Neut.Nom.Sg.St	NK	502
+"			$(	--		--	0
+muß			VMFIN	3.Sg.Pres.Ind	HD	510
+sie			PPER	3.Sg.Fem.Nom	SB	510
+sein			VAINF	--		HD	505
+und			KON	--		CD	508
+eine			ART	Indef.Fem.Akk.Sg	NK	503
+eigene			ADJA	Pos.Fem.Akk.Sg.Mix	NK	503
+Handschrift		NN	Fem.Akk.Sg.*	NK	503
+aufweisen		VVINF	--		HD	506
+.			$.	--		--	0
+#500			NP	--		OA	509
+#501			NP	--		SB	504
+#502			NP	--		PD	505
+#503			NP	--		OA	506
+#504			S	--		RE	507
+#505			VP	--		CJ	508
+#506			VP	--		CJ	508
+#507			NP	--		SB	509
+#508			CVP	--		OC	510
+#509			S	--		CJ	511
+#510			S	--		CJ	511
+#511			CS	--		--	0
+#EOS 4
+#BOS 5 3 891268076 1
+Schade			ADJD	--		HD	500
+jedoch			ADV	--		MO	500
+,			$,	--		--	0
+daß			KOUS	--		CP	503
+kaum			ADV	--		MO	501
+jemand			PIS	*.Nom.Sg	NK	501
+daran			PROAV	--		MO	502
+teilhaben		VVINF	--		HD	502
+kann			VMFIN	3.Sg.Pres.Ind	HD	503
+.			$.	--		--	0
+#500			AP	--		PD	504
+#501			NP	--		SB	503
+#502			VP	--		OC	503
+#503			S	--		SB	504
+#504			S	--		--	0
+#EOS 5
+#BOS 6 8 861697757 1
+Das			ART	Def.Neut.Nom.Sg	NK	502
+einzige			ADJA	Pos.Neut.Nom.Sg.Sw	NK	502
+Forum			NN	Neut.Nom.Sg.*	NK	502
+für			APPR	Akk		AC	500
+diese			PDAT	Fem.Akk.Sg	NK	500
+Musik			NN	Fem.Akk.Sg.*	NK	500
+ist			VAFIN	3.Sg.Pres.Ind	HD	505
+das			ART	Def.Neut.Nom.Sg	NK	504
+interessierte		ADJA	Pos.Neut.Nom.Sg.Sw	NK	504
+Publikum		NN	Neut.Nom.Sg.*	NK	504
+bei			APPR	Dat		AC	503
+Konzerten		NN	Neut.Dat.Pl.*	CJ	501
+und			KON	--		CD	501
+Festivals		NN	Neut.Dat.Pl.*	CJ	501
+.			$.	--		--	0
+#500			PP	--		MNR	502
+#501			CNP	--		NK	503
+#502			NP	--		PD	505
+#503			PP	--		MNR	504
+#504			NP	--		SB	505
+#505			S	--		--	0
+#EOS 6
+#BOS 9 3 867229992 1
+Auch			ADV	--		MO	503
+Philip			NE	Masc.Nom.Sg	PNC	500
+Glass			NE	*.Nom.Sg	PNC	500
+wurde			VAFIN	3.Sg.Past.Ind	HD	506
+auf			APPR	Dat		AC	501
+seinen			PPOSAT	*.Dat.Pl	NK	501
+weltweiten		ADJA	Pos.*.Dat.Pl.Mix	NK	501
+Tourneen		NN	Fem.Dat.Pl.*	NK	501
+mit			APPR	Dat		AC	504
+Kassetten		NN	Fem.Dat.Pl.*	CJ	502
+und			KON	--		CD	502
+Tonbändern		NN	Neut.Dat.Pl.*	CJ	502
+überschüttet		VVPP	--		HD	505
+.			$.	--		--	0
+#500			MPN	--		NK	503
+#501			PP	--		MO	505
+#502			CNP	--		NK	504
+#503			NP	--		SB	506
+#504			PP	--		MO	505
+#505			VP	--		OC	506
+#506			S	--		--	0
+#EOS 9
+#BOS 11 2 893259793 1
+Kein			PIAT	Neut.Nom.Sg	NK	500
+Wunder			NN	Neut.Nom.Sg.*	NK	500
+also			ADV	--		MO	511
+,			$,	--		--	0
+daß			KOUS	--		CP	510
+vor			APPR	Dat		AC	504
+rund			ADV	--		MO	501
+acht			CARD	--		HD	501
+Jahren			NN	Neut.Dat.Pl.*	NK	504
+die			ART	Def.Fem.Nom.Sg	NK	509
+Idee			NN	Fem.Nom.Sg.*	NK	509
+entstand		VVFIN	3.Sg.Past.Ind	HD	510
+,			$,	--		--	0
+ein			ART	Indef.Neut.Akk.Sg	NK	507
+Label			NN	Neut.Akk.Sg.*	NK	507
+zu			PTKZU	--		PM	502
+gründen			VVINF	--		HD	502
+,			$,	--		--	0
+das			PRELS	Neut.Nom.Sg	SB	506
+klassische		ADJA	Pos.Fem.Akk.Sg.St	NK	505
+Musik			NN	Fem.Nom.Sg.*	NK	505
+im			APPRART	Dat.Masc	AC	503
+weitesten		ADJA	Sup.Masc.Dat.Sg.Sw	NK	503
+Sinne			NN	Masc.Dat.Sg.*	NK	503
+produziert		VVFIN	3.Sg.Pres.Ind	HD	506
+.			$.	--		--	0
+#500			NP	--		PD	511
+#501			AP	--		NK	504
+#502			VZ	--		HD	508
+#503			PP	--		MNR	505
+#504			PP	--		MO	510
+#505			NP	--		OA	506
+#506			S	--		RC	507
+#507			NP	--		OA	508
+#508			VP	--		OC	509
+#509			NP	--		SB	510
+#510			S	--		SB	511
+#511			S	--		--	0
+#EOS 11
+#BOS 13 3 876822480 1 %% AP-struktur geaendert, WS
+Bevorzugt		VVPP	--		OC	504
+wird			VAFIN	3.Sg.Pres.Ind	HD	504
+progressive		ADJA	Pos.Fem.Nom.Sg.St	NK	503	%% F
+Musik			NN	Fem.Nom.Sg.*	NK	503
+,			$,	--		--	0
+die			PRELS	Fem.Nom.Sg	SB	502	%% F R?
+nicht			PTKNEG	--		NG	500
+unbedingt		ADJD	Pos		HD	500
+akademisch		ADJD	Pos		PD	501
+sein			VAINF	--		HD	501
+muß			VMFIN	3.Sg.Pres.Ind	HD	502
+.			$.	--		--	0
+#500			AP	--		MO	502
+#501			VP	--		OC	502
+#502			S	--		RC	503
+#503			NP	--		SB	504
+#504			S	--		--	0
+#EOS 13
+#BOS 16 8 861702708 1
+Schon			ADV	--		MO	500
+die			ART	Def.*.Nom.Pl	NK	500
+ersten			ADJA	*.*.Nom.Pl.Sw	NK	500
+drei			CARD	--		NK	500
+Veröffentlichungen	NN	Fem.Nom.Pl.*	NK	500
+verdeutlichen		VVFIN	3.Pl.Pres.Ind	HD	502
+die			ART	Def.Fem.Akk.Sg	NK	501
+unbegrenzte		ADJA	Pos.Fem.Akk.Sg.Sw	NK	501
+Spannbreite		NN	Fem.Akk.Sg.*	NK	501
+.			$.	--		--	0
+#500			NP	--		SB	502
+#501			NP	--		OA	502
+#502			S	--		--	0
+#EOS 16
+#BOS 17 15 887106800 1
+"			$(	--		--	0
+Point			NE	*.Nom.Sg	PNC	500
+Music			NE	*.Nom.Sg	PNC	500
+"			$(	--		--	0
+startet			VVFIN	3.Sg.Pres.Ind	HD	504
+mit			APPR	Dat		AC	503
+"			$(	--		--	0
+Mapa			NE	*.Dat.Sg	NK	503
+"			$(	--		--	0
+des			ART	Def.Neut.Gen.Sg	NK	502
+Quartetts		NN	Neut.Gen.Sg.*	NK	502
+Uakti			NE	*.Nom.Sg	NK	502
+(			$(	--		--	0
+sprich			VVIMP	Sg		HD	501
+"			$(	--		--	0
+Wa-ketschi		FM	--		MO	501
+"			$(	--		--	0
+)			$(	--		--	0
+.			$.	--		--	0
+#500			MPN	--		SB	504
+#501			S	--		APP	502
+#502			NP	--		GR	503
+#503			PP	--		MO	504
+#504			S	--		--	0
+#EOS 17
+#BOS 18 8 861703051 1
+Marco			NE	Masc.Nom.Sg	PNC	500
+Antonio			NE	Masc.Nom.Sg	PNC	500
+Guimaraes		NE	*.Nom.Sg	PNC	500
+,			$,	--		--	0
+Paulo			NE	Masc.Nom.Sg	PNC	501
+Sergio			NE	Masc.Nom.Sg	PNC	501
+Santos			NE	*.Nom.Sg	PNC	501
+,			$,	--		--	0
+Artur			NE	Masc.Nom.Sg	PNC	502
+Andres			NE	*.Nom.Sg	PNC	502
+und			KON	--		CD	507
+Decio			NE	Masc.Nom.Sg	PNC	503
+de			NE	*.*.*		PNC	503
+Souza			NE	*.Nom.Sg	PNC	503
+Ramos			NE	*.Nom.Sg	PNC	503
+stammen			VVFIN	3.Pl.Pres.Ind	HD	509
+aus			APPR	Dat		AC	504
+Brasilien		NE	Neut.Dat.Sg	NK	504
+und			KON	--		CD	510
+haben			VAFIN	3.Pl.Pres.Ind	HD	508
+allesamt		ADV	--		MO	508
+ein			ART	Indef.Neut.Akk.Sg	NK	505
+abgeschlossenes		ADJA	Pos.Neut.Akk.Sg.Mix	NK	505
+Musikstudium		NN	Neut.Akk.Sg.*	NK	505
+hinter			APPR	Dat		AC	506
+sich			PRF	3.Dat.Pl	NK	506
+.			$.	--		--	0
+#500			MPN	--		CJ	507
+#501			MPN	--		CJ	507
+#502			MPN	--		CJ	507
+#503			MPN	--		CJ	507
+#504			PP	--		MO	509
+#505			NP	--		OA	508
+#506			PP	--		MO	508
+#507			CNP	--		SB	509
+#508			S	--		CJ	510
+#509			S	--		CJ	510
+#510			CS	--		--	0
+#EOS 18
+#BOS 19 3 867230283 1
+Ihre			PPOSAT	*.Nom.Pl	NK	500
+minimalistischen	ADJA	Pos.*.Nom.Pl.Mix	NK	500
+Klänge			NN	Masc.Nom.Pl.*	NK	500
+sind			VAFIN	3.Pl.Pres.Ind	HD	503
+voller			ADJA	Pos.Fem.Gen.Sg.St	HD	502
+Spielfreude		NN	Fem.Gen.Sg.*	CJ	501
+und			KON	--		CD	501
+Experimentierlust	NN	Fem.Gen.Sg.*	CJ	501
+.			$.	--		--	0
+#500			NP	--		SB	503
+#501			CNP	--		DA	502
+#502			AP	--		PD	503
+#503			S	--		--	0
+#EOS 19
+#BOS 25 3 864152042 1
+Die			ART	Def.Fem.Nom.Sg	NK	507
+percussive		ADJA	Pos.Fem.Nom.Sg.Sw	NK	507
+Version			NN	Fem.Nom.Sg.*	NK	507
+des			ART	Def.Masc.Gen.Sg	NK	505
+zu			APPR	Dat		AC	500
+Tode			NN	Masc.Dat.Sg.*	NK	500
+genudelten		ADJA	Pos.Masc.Gen.Sg.Sw	HD	503
+"			$(	--		--	0
+Bolero			NE	Masc.Gen.Sg	NK	505
+"			$(	--		--	0
+,			$,	--		--	0
+fiel			VVFIN	3.Sg.Past.Ind	HD	509
+dermaßen		ADV	--		HD	506
+obskur			ADJD	Pos		HD	508
+aus			PTKVZ	--		SVP	509
+,			$,	--		--	0
+daß			KOUS	--		CP	504
+selbst			ADV	--		MO	501
+Ravel			NE	*.Nom.Sg	NK	501
+sich			PRF	3.Akk.Sg	OA	502
+amüsiert		VVPP	--		HD	502
+hätte			VAFIN	3.Sg.Past.Konj	HD	504
+.			$.	--		--	0
+#500			PP	--		MO	503
+#501			NP	--		SB	504
+#502			VP	--		OC	504
+#503			AP	--		NK	505
+#504			S	--		CC	506
+#505			NP	--		GR	507
+#506			AVP	--		MO	508
+#507			NP	--		SB	509
+#508			AP	--		MO	509
+#509			S	--		--	0
+#EOS 25
+#BOS 26 3 876822587 1 %% Alternative: the M.F. flach als NC annotieren
+John			NE	Masc.Nom.Sg	PNC	500
+Morans			NE	*.Gen.Sg	PNC	500
+Avantgarde-Oper		NN	Fem.Nom.Sg.*	NK	505
+"			$(	--		--	0
+The			FM	--		PNC	501
+Manson			NE	*.Nom.Sg	PNC	501
+Family			FM	--		PNC	501
+"			$(	--		--	0
+ist			VAFIN	3.Sg.Pres.Ind	HD	511
+das			ART	Def.Neut.Nom.Sg	NK	510
+musikalische		ADJA	Pos.Neut.Nom.Sg.Sw	NK	510
+Äquivalent		NN	Neut.Nom.Sg.*	NK	510
+dessen			PDS	Neut.Gen.Sg	NK	509	%% F
+,			$,	--		--	0
+was			PRELS	Neut.Akk.Sg	OA	507	%% F R
+Truman			NE	Masc.Nom.Sg	PNC	502
+Capote			NE	*.Nom.Sg	PNC	502
+mit			APPR	Dat		AC	506
+"			$(	--		--	0
+In			FM	--		PNC	503
+cold			FM	--		PNC	503
+blood			FM	--		PNC	503
+"			$(	--		--	0
+für			APPR	Akk		AC	504
+die			ART	Def.Fem.Akk.Sg	NK	504
+Literatur		NN	Fem.Akk.Sg.*	NK	504
+geschaffen		VVPP	--		HD	507
+hatte			VAFIN	3.Sg.Past.Ind	HD	508
+.			$.	--		--	0
+#500			MPN	--		GL	505
+#501			MPN	--		NK	505
+#502			MPN	--		SB	508
+#503			MPN	--		NK	506
+#504			PP	--		MO	507
+#505			NP	--		SB	511
+#506			PP	--		MO	507
+#507			VP	--		OC	508
+#508			S	--		RC	509
+#509			NP	--		GR	510
+#510			NP	--		PD	511
+#511			S	--		--	0
+#EOS 26
+#BOS 27 9 864136231 1
+Allerdings		ADV	--		MO	510
+möchte			VMFIN	3.Sg.Pres.Konj	HD	510
+Moran			NE	*.Nom.Sg	SB	510
+gar			ADV	--		MO	500
+keine			PIAT	Fem.Akk.Sg	HD	500
+Geschichte		NN	Fem.Akk.Sg.*	NK	506
+mit			APPR	Dat		AC	504
+Anfang			NN	Masc.Dat.Sg.*	CJ	501
+und			KON	--		CD	501
+Ende			NN	Neut.Dat.Sg.*	CJ	501
+erzählen		VVINF	--		HD	508
+,			$,	--		--	0
+sondern			KON	--		CD	514
+begnügt			VVFIN	3.Sg.Pres.Ind	HD	513
+sich			PRF	3.Akk.Sg	OA	513
+damit			PROAV	--		PH	512
+,			$,	--		--	0
+düster-ironischen	ADJA	Pos.*.Akk.Pl.St	NK	509
+,			$,	--		--	0
+szenischen		ADJA	Pos.*.Akk.Pl.St	NK	509
+Impressionen		NN	Fem.Akk.Pl.*	NK	509
+aus			APPR	Dat		AC	507
+dem			ART	Def.Neut.Dat.Sg	NK	507
+Leben			NN	Neut.Dat.Sg.*	NK	507
+Mansons			NE	*.Gen.Sg	CJ	505
+und			KON	--		CD	505
+seiner			PPOSAT	*.Gen.Pl	NK	502
+Anhänger		NN	Masc.Gen.Pl.*	NK	502
+zu			PTKZU	--		PM	503
+zeigen			VVINF	--		HD	503
+.			$.	--		--	0
+#500			AP	--		NK	506
+#501			CNP	--		NK	504
+#502			NP	--		CJ	505
+#503			VZ	--		HD	511
+#504			PP	--		MNR	506
+#505			CNP	--		GR	507
+#506			NP	--		OA	508
+#507			PP	--		MNR	509
+#508			VP	--		OC	510
+#509			NP	--		OA	511
+#510			S	--		CJ	514
+#511			VP	--		RE	512
+#512			PP	--		MO	513
+#513			S	--		CJ	514
+#514			CS	--		--	0
+#EOS 27
+#BOS 28 9 889009298 1
+Ursprünglich		ADJD	Pos		MO	504
+war			VAFIN	3.Sg.Past.Ind	HD	504
+"			$(	--		--	0
+The			FM	--		PNC	500
+Manson			NE	*.Nom.Sg	PNC	500
+Family			FM	--		PNC	500
+"			$(	--		--	0
+ein			ART	Def.Neut.Nom.Sg	NK	503
+Auftragswerk		NN	Neut.Nom.Sg.*	NK	503
+für			APPR	Akk		AC	502
+das			ART	Def.Neut.Akk.Sg	NK	502
+Lincoln			FM	--		PNC	501
+Center			FM	--		PNC	501
+Serious			FM	--		PNC	501
+Fun			FM	--		PNC	501
+!			FM	--		PNC	501
+Festival		NN	Neut.Akk.Sg.*	PNC	501
+.			$.	--		--	0
+#500			MPN	--		SB	504
+#501			MPN	--		NK	502
+#502			PP	--		MNR	503
+#503			NP	--		PD	504
+#504			S	--		--	0
+#EOS 28
+#BOS 40 3 867224453 1
+Manson			NE	*.Nom.Sg	SB	505
+hatte			VAFIN	3.Sg.Past.Ind	HD	505
+auch			ADV	--		MO	504
+"			$(	--		--	0
+Helter			FM	--		PNC	500
+Skelter			FM	--		PNC	500
+"			$(	--		--	0
+an			APPR	Akk		AC	502
+die			ART	Def.Fem.Akk.Sg	NK	502
+Wand			NN	Fem.Akk.Sg.*	NK	502
+der			ART	Def.*.Gen.Pl	NK	501
+ermordeten		ADJA	Pos.*.Gen.Pl.Sw	NK	501
+Opfer			NN	Neut.Gen.Pl.*	NK	501
+pinseln			VVINF	--		HD	503
+lassen			VVINF	--		HD	504
+.			$.	--		--	0
+#500			MPN	--		OA	503
+#501			NP	--		GR	502
+#502			PP	--		MO	503
+#503			VP	--		OC	504
+#504			VP	--		OC	505
+#505			S	--		--	0
+#EOS 40
+#BOS 41 3 876926074 1
+In			APPR	Dat		AC	506
+"			$(	--		--	0
+The			FM	--		PNC	500
+Manson			NE	*.Nom.Sg	PNC	500
+Family			FM	--		PNC	500
+"			$(	--		--	0
+werden			VAFIN	3.Pl.Pres.Ind	HD	513
+auszugsweise		ADJD	Pos		MO	512
+Mansons			NE	*.Gen.Sg	GL	501
+eigene			ADJA	Pos.*.Nom.Pl.St	NK	501
+Worte			NN	Neut.Nom.Pl.*	NK	501
+in			APPR	Akk		AC	507
+einen			ART	Indef.Masc.Akk.Sg	NK	507
+solch			PIDAT	*.*.*		MO	502
+sarkastischen		ADJA	Pos.Masc.Akk.Sg.Mix	HD	502
+Zusammenhang		NN	Masc.Akk.Sg.*	NK	507
+gesetzt			VVPP	--		HD	512
+,			$,	--		--	0
+so			ADV	--		MO	511
+daß			KOUS	--		CP	511
+man			PIS	*.Nom.Sg	SB	511
+in			APPR	Dat		AC	503
+Amerika			NE	Neut.Dat.Sg	NK	503
+befürchtete		VVFIN	3.Sg.Past.Ind	HD	511
+,			$,	--		--	0
+ein			ART	Indef.Masc.Nom.Sg	NK	509
+grausamer		ADJA	Pos.Masc.Nom.Sg.Mix	NK	504
+Mörder			NN	Masc.Nom.Sg.*	NK	504
+und			KON	--		CD	508
+Psychopath		NN	Masc.Nom.Sg.*	CJ	508
+würde			VAFIN	3.Sg.Pres.Konj	HD	510
+somit			ADV	--		MO	505
+verharmlost		VVPP	--		HD	505
+.			$.	--		--	0
+#500			MPN	--		NK	506
+#501			NP	--		SB	513
+#502			AP	--		NK	507
+#503			PP	--		MO	511
+#504			NP	--		CJ	508
+#505			VP	--		OC	510
+#506			PP	--		MO	512
+#507			PP	--		MO	512
+#508			CNP	--		NK	509
+#509			NP	--		SB	510
+#510			S	--		OC	511
+#511			S	--		MO	512
+#512			VP	--		OC	513
+#513			S	--		--	0
+#EOS 41
+#BOS 42 3 876823048 1
+"			$(	--		--	0
+The			FM	--		PNC	500
+Manson			NE	*.Nom.Sg	PNC	500
+Family			FM	--		PNC	500
+verurteilt		VVFIN	3.Sg.Pres.Ind	HD	502
+nicht			PTKNEG	--		NG	502
+"			$(	--		--	0
+,			$,	--		--	0
+behauptet		VVFIN	3.Sg.Pres.Ind	HD	509
+Moran			NE	*.Nom.Sg	SB	509
+,			$,	--		--	0
+"			$(	--		--	0
+.			$.	--		--	0
+.			$.	--		--	0
+.			$.	--		--	0
+sondern			KON	--		CD	508
+ist			VAFIN	3.Sg.Pres.Ind	HD	507
+die			ART	Def.Fem.Nom.Sg	NK	506
+Untersuchung		NN	Fem.Nom.Sg.*	NK	506
+eines			ART	Indef.Neut.Gen.Sg	NK	505	%% F
+Themas			NN	Neut.Gen.Sg.*	NK	505
+,			$,	--		--	0
+das			PRELS	Neut.Nom.Sg	SB	504	%% F R
+in			APPR	Dat		AC	501
+sich			PRF	*.*.*		NK	501
+beunruhigend		ADJD	Pos		HD	503
+ist			VAFIN	3.Sg.Pres.Ind	HD	504
+.			$.	--		--	0
+"			$(	--		--	0
+#500			NP	--		SB	502	%% kaarel: MPN --> NP
+#501			PP	--		MO	503
+#502			S	--		CJ	508
+#503			AP	--		PD	504
+#504			S	--		RC	505
+#505			NP	--		GR	506
+#506			NP	--		PD	507
+#507			S	--		CJ	508
+#508			CS	--		OC	509
+#509			S	--		--	0
+#EOS 42
+#BOS 43 3 876823068 1
+Und			KON	--		JU	500
+weiter			ADV	--		MO	500
+:			$.	--		--	0
+"			$(	--		--	0
+Ich			PPER	1.Sg.*.Nom	SB	508
+wollte			VMFIN	1.Sg.Past.Ind	HD	508
+die			ART	Def.*.Akk.Pl	NK	503
+Charaktere		NN	Masc.Akk.Pl.*	NK	503
+der			ART	Def.Fem.Gen.Sg	NK	501
+Manson			NE	*.Gen.Sg	NK	501
+Familie			NN	Fem.Gen.Sg.*	NK	501
+als			KOKOM	--		AC	506
+Repräsentanten		NN	Masc.Akk.Pl.*	NK	506
+derselben		PDAT	*.Gen.Pl	NK	505	%% F
+Archetypen		NN	Masc.Gen.Pl.*	NK	505
+zeigen			VVINF	--		HD	507
+,			$,	--		--	0
+die			PRELS	*.Akk.Pl	OA	504	%% F R
+man			PIS	*.Nom.Sg	SB	504
+in			APPR	Dat		AC	502
+der			ART	Def.Fem.Dat.Sg	NK	502
+griechischen		ADJA	Pos.Fem.Dat.Sg.Sw	NK	502
+Tragödie		NN	Fem.Dat.Sg.*	NK	502
+findet			VVFIN	3.Sg.Pres.Ind	HD	504
+.			$.	--		--	0
+#500			S	--		DH	509
+#501			NP	--		GR	503
+#502			PP	--		MO	504
+#503			NP	--		OA	507
+#504			S	--		RC	505
+#505			NP	--		GR	506
+#506			PP	--		MO	507
+#507			VP	--		OC	508
+#508			S	--		RS	509
+#509			DL	--		--	0
+#EOS 43
+#BOS 44 5 855162036 1
+Ob			KOUS	--		CP	500
+das			PDS	Neut.Nom.Sg	SB	500
+stimmt			VVFIN	3.Sg.Pres.Ind	HD	500
+,			$,	--		--	0
+darf			VMFIN	3.Sg.Pres.Ind	HD	502
+bezweifelt		VVPP	--		OC	501
+werden			VAINF	--		HD	501
+.			$.	--		--	0
+#500			S	--		SB	502
+#501			VP	--		OC	502
+#502			S	--		--	0
+#EOS 44
+#BOS 45 5 855234077 1
+Dennoch			ADV	--		MO	504
+ist			VAFIN	3.Sg.Pres.Ind	HD	504
+"			$(	--		--	0
+The			FM	--		PNC	500
+Manson			NE	*.Nom.Sg	PNC	500
+Family			FM	--		PNC	500
+"			$(	--		--	0
+ein			ART	Indef.Masc.Nom.Sg	NK	503
+erfolgreicher		ADJA	Pos.Masc.Nom.Sg.Mix	NK	503
+Versuch			NN	Masc.Nom.Sg.*	NK	503
+,			$,	--		--	0
+Theater			NN	Neut.Akk.Sg.*	OA	502
+hörbar			ADJD	Pos		PD	502
+zu			PTKZU	--		PM	501
+machen			VVINF	--		HD	501
+.			$.	--		--	0
+#500			MPN	--		SB	504
+#501			VZ	--		HD	502
+#502			VP	--		OC	503
+#503			NP	--		PD	504
+#504			S	--		--	0
+#EOS 45
+#BOS 46 3 863207805 1
+Moran			NE	*.Nom.Sg	SB	500
+ist			VAFIN	3.Sg.Pres.Ind	HD	500
+längst			ADV	--		MO	500
+weiter			ADJD	Comp		PD	500
+.			$.	--		--	0
+#500			S	--		--	0
+#EOS 46
+#BOS 47 3 867230843 1
+Er			PPER	3.Sg.Masc.Nom	SB	502
+hat			VAFIN	3.Sg.Pres.Ind	HD	502
+bereits			ADV	--		MO	501
+ganze			ADJA	--		NK	500
+drei			CARD	--		NK	500
+neue			ADJA	Pos.*.Akk.Pl.St	NK	500
+Opern			NN	Fem.Akk.Pl.*	NK	500
+fertiggestellt		VVPP	--		HD	501
+.			$.	--		--	0
+#500			NP	--		OA	501
+#501			VP	--		OC	502
+#502			S	--		--	0
+#EOS 47
+#BOS 49 5 855837929 1
+In			APPR	Dat		AC	500
+dem			ART	Def.Neut.Dat.Sg	NK	500
+Stück			NN	Neut.Dat.Sg.*	NK	500
+beschäftigt		VVFIN	3.Sg.Pres.Ind	HD	502
+sich			PRF	3.Akk.Sg	OA	502
+Genet			NE	*.Nom.Sg	SB	502
+mit			APPR	Dat		AC	501
+dem			ART	Def.Masc.Dat.Sg	NK	501
+französischen		ADJA	Pos.Masc.Dat.Sg.Sw	NK	501
+Kolonalismus		NN	Masc.Dat.Sg.*	NK	501
+.			$.	--		--	0
+#500			PP	--		MO	502
+#501			PP	--		MO	502
+#502			S	--		--	0
+#EOS 49
+#BOS 50 3 867171478 1
+"			$(	--		--	0
+The			FM	--		PNC	500
+Screens			FM	--		PNC	500
+"			$(	--		--	0
+ist			VAFIN	3.Sg.Pres.Ind	HD	509
+nach			APPR	Dat		AC	506
+Glass			NE	*.Gen.Sg	GL	506
+'			$(	--		--	0
+"			$(	--		--	0
+Passages		NE	--		NK	506
+"			$(	--		--	0
+(			$(	--		--	0
+mit			APPR	Dat		AC	504
+Ravi			NE	Masc.Dat.Sg	PNC	501
+Shankar			NE	*.Dat.Sg	PNC	501
+)			$(	--		--	0
+die			ART	Def.Fem.Nom.Sg	NK	508
+konsequente		ADJA	Pos.Fem.Nom.Sg.Sw	NK	508
+Fortführung		NN	Fem.Nom.Sg.*	NK	508
+seines			PPOSAT	Neut.Gen.Sg	NK	507
+Bestrebens		NN	Neut.Gen.Sg.*	NK	507
+,			$,	--		--	0
+Folklore		NN	Fem.Akk.Sg.*	OA	505
+mit			APPR	Dat		AC	502
+klassischer		ADJA	Pos.Fem.Dat.Sg.St	NK	502
+Musik			NN	Fem.Dat.Sg.*	NK	502
+harmonisch		ADJD	Pos		MO	505
+zu			PTKZU	--		PM	503
+verbinden		VVINF	--		HD	503
+.			$.	--		--	0
+#500			MPN	--		SB	509
+#501			MPN	--		NK	504
+#502			PP	--		MO	505
+#503			VZ	--		HD	505
+#504			PP	--		APP	506
+#505			VP	--		OC	507
+#506			PP	--		MO	509
+#507			NP	--		GR	508
+#508			NP	--		PD	509
+#509			S	--		--	0
+#EOS 50
+#BOS 51 9 864136191 1
+Suso			NE	*.Nom.Sg	SB	505
+ist			VAFIN	3.Sg.Pres.Ind	HD	505
+auch			ADV	--		MO	503
+auf			APPR	Dat		AC	503
+"			$(	--		--	0
+Pieces			FM	--		PNC	500
+of			FM	--		PNC	500
+Africa			FM	--		PNC	500
+"			$(	--		--	0
+des			ART	Def.Neut.Gen.Sg	NK	502
+Kronos			NE	*.Gen.Sg	PNC	501
+Quartet			NN	Neut.Gen.Sg.*	PNC	501
+vertreten		VVPP	--		HD	504
+.			$.	--		--	0
+#500			MPN	--		NK	503
+#501			MPN	--		NK	502
+#502			NP	--		GR	503
+#503			PP	--		MO	504
+#504			VP	--		PD	505
+#505			S	--		--	0
+#EOS 51
+#BOS 52 3 871481945 1
+Die			ART	Def.*.Nom.Pl	NK	500
+Streicher-Paradiesvögel	NN	Masc.Nom.Pl.*	NK	500
+haben			VAFIN	3.Pl.Pres.Ind	HD	504
+sich			PRF	3.Akk.Pl	OA	503
+schon			ADV	--		MO	501
+immer			ADV	--		HD	501
+für			APPR	Akk		AC	502
+das			ART	Def.Neut.Akk.Sg	NK	502
+"			$(	--		--	0
+Besondere		NN	Neut.Akk.Sg.Sw	NK	502
+"			$(	--		--	0
+eingesetzt		VVPP	--		HD	503
+.			$.	--		--	0
+#500			NP	--		SB	504
+#501			AVP	--		MO	503
+#502			PP	--		MO	503
+#503			VP	--		OC	504
+#504			S	--		--	0
+#EOS 52
+#BOS 53 9 864217706 1
+Für			APPR	Akk		AC	500
+manche			PIS	*.Akk.Pl	NK	500
+sind			VAFIN	3.Pl.Pres.Ind	HD	507
+sie			PPER	3.Pl.*.Nom	SB	507
+mit			APPR	Dat		AC	501
+ihrem			PPOSAT	Neut.Dat.Sg	NK	501
+Styling			NN	Neut.Dat.Sg.*	NK	501
+nur			ADV	--		MO	506
+Hype			NN	Pos		NK	506
+,			$,	--		--	0
+ausgekochte		ADJA	Pos.*.Nom.Pl.St	CJ	502
+und			KON	--		CD	502
+geschäftstüchtige	ADJA	Pos.*.Nom.Pl.St	CJ	502
+Musiker			NN	Masc.Nom.Pl.*	NK	504
+,			$,	--		--	0
+süchtig			ADJD	Pos		HD	505
+nach			APPR	Dat		AC	503
+Haargel			NN	Neut.Dat.Sg.*	NK	503
+.			$.	--		--	0
+#500			PP	--		MO	507
+#501			PP	--		MO	507
+#502			CAP	--		NK	504
+#503			PP	--		MO	505
+#504			NP	--		APP	506
+#505			AP	--		MNR	506
+#506			NP	--		PD	507
+#507			S	--		--	0
+#EOS 53
+#BOS 54 3 861217845 1
+Für			APPR	Akk		AC	500
+andere			PIS	*.Akk.Pl	NK	500
+stellen			VVFIN	3.Pl.Pres.Ind	HD	501
+sie			PPER	3.Pl.*.Nom	SB	501
+Weichen			NN	Fem.Akk.Pl.*	OA	501
+.			$.	--		--	0
+#500			PP	--		MO	501
+#501			S	--		--	0
+#EOS 54
+#BOS 55 8 848416829 1
+Kronos			NE	*.Nom.Pl	SB	502
+haben			VAFIN	3.Pl.Pres.Ind	HD	502
+mit			APPR	Dat		AC	500
+ihrer			PPOSAT	Fem.Dat.Sg	NK	500
+Musik			NN	Fem.Dat.Sg.*	NK	500
+Brücken			NN	Fem.Akk.Pl.*	OA	501
+geschlagen		VVPP	--		HD	501
+.			$.	--		--	0
+#500			PP	--		MO	501
+#501			VP	--		OC	502
+#502			S	--		--	0
+#EOS 55
+#BOS 56 3 863208028 1
+Pop-			TRUNC	--		CJ	500
+und			KON	--		CD	500
+Jazz-Fans		NN	Masc.Nom.Pl.*	CJ	500
+kamen			VVFIN	3.Pl.Past.Ind	HD	510
+durch			APPR	Akk		AC	508
+die			ART	Def.*.Akk.Pl	NK	508
+exzentrischen		ADJA	Pos.*.Akk.Pl.Sw	NK	508
+Interpretationen	NN	Fem.Akk.Pl.*	NK	508
+(			$(	--		--	0
+z.			APPRART	Dat.Neut	AC	501
+B.			NN	Neut.Dat.Sg.*	NK	501
+Jimi			NE	Masc.Nom.Sg	PNC	502
+Hendrix			NE	*.Nom.Sg	PNC	502
+)			$(	--		--	0
+nicht			PTKNEG	--		NG	510
+nur			ADV	--		MO	510
+auf			APPR	Akk		AC	503
+ihre			PPOSAT	*.Akk.Pl	NK	503
+Kosten			NN	*.Akk.Pl.*	NK	503
+,			$,	--		--	0
+sondern			KON	--		CD	511
+fanden			VVFIN	3.Pl.Past.Ind	HD	509
+über			APPR	Akk		AC	504
+die			ART	Def.Fem.Akk.Sg	NK	504
+Avantgarde		NN	Fem.Akk.Sg.*	NK	504
+auch			ADV	--		MO	509
+Zugang			NN	Masc.Akk.Sg.*	NK	507
+zu			APPR	Dat		AC	505
+traditioneller		ADJA	Pos.Fem.Dat.Sg.St	NK	505
+klassischer		ADJA	Pos.Fem.Dat.Sg.St	NK	505
+Musik			NN	Fem.Dat.Sg.*	NK	505
+.			$.	--		--	0
+#500			CNP	--		SB	510
+#501			PP	--		MO	506
+#502			MPN	--		NK	506
+#503			PP	--		MO	510
+#504			PP	--		MO	509
+#505			PP	--		MNR	507
+#506			NP	--		APP	508
+#507			NP	--		OA	509
+#508			PP	--		MO	510
+#509			S	--		CJ	511
+#510			S	--		CJ	511
+#511			CS	--		--	0
+#EOS 56
+#BOS 59 3 863208264 1
+Das			ART	Def.Neut.Nom.Sg	NK	503
+vom			APPRART	Dat.Neut	AC	500
+Repertoir		NN	Neut.Dat.Sg.*	NK	500
+her			APZR	--		AC	500
+unerschrockene		ADJA	Pos.Neut.Nom.Sg.Sw	HD	502
+Ensemble		NN	Neut.Nom.Sg.*	NK	503
+möchte			VMFIN	3.Sg.Pres.Konj	HD	504
+nur			ADV	--		MO	501
+keine			PIAT	Fem.Akk.Sg	NK	501
+Langweile		NN	Fem.Akk.Sg.*	NK	501
+.			$.	--		--	0
+#500			PP	--		MO	502
+#501			NP	--		OA	504
+#502			AP	--		NK	503
+#503			NP	--		SB	504
+#504			S	--		--	0
+#EOS 59
+#BOS 60 3 876913137 1
+Harringtons		NE	Masc.Gen.Sg	GL	500
+Credo			NN	Neut.Nom.Sg.*	NK	500
+:			$.	--		--	0
+"			$(	--		--	0
+Als			KOKOM	--		AC	501
+Künstler		NN	Masc.Nom.Sg.*	NK	501
+sehe			VVFIN	1.Sg.Pres.Ind	HD	512
+ich			PPER	1.Sg.*.Nom	SB	512
+meine			PPOSAT	Fem.Akk.Sg	NK	502
+Aufgabe			NN	Fem.Akk.Sg.*	NK	502
+darin			PROAV	--		PH	511
+,			$,	--		--	0
+mich			PRF	1.Akk.Sg	OA	510
+mit			APPR	Dat		AC	503
+völliger		ADJA	Pos.Fem.Dat.Sg.St	NK	503
+Hingabe			NN	Fem.Dat.Sg.*	NK	503
+darum			PROAV	--		PH	509
+zu			PTKZU	--		PM	504
+bemühen			VVINF	--		HD	504
+,			$,	--		--	0
+kühne			ADJA	Pos.*.Akk.Pl.St	NK	505
+neue			ADJA	Pos.*.Akk.Pl.St	NK	505
+Ideen			NN	Fem.Akk.Pl.*	NK	505
+in			APPR	Akk		AC	506
+einen			ART	Indef.Masc.Akk.Sg	NK	506
+kühnen			ADJA	Pos.Masc.Akk.Sg.Mix	NK	506
+neuen			ADJA	Pos.Masc.Akk.Sg.Mix	NK	506
+Kontext			NN	Masc.Akk.Sg.*	NK	506
+zu			PTKZU	--		PM	507
+stellen			VVINF	--		HD	507
+.			$.	--		--	0
+#500			NP	--		PD	513
+#501			PP	--		OA2	512	%% kaarel MO --> OA2
+#502			NP	--		OA	512
+#503			PP	--		MO	510
+#504			VZ	--		HD	510
+#505			NP	--		OA	508
+#506			PP	--		MO	508
+#507			VZ	--		HD	508
+#508			VP	--		RE	509
+#509			PP	--		MO	510
+#510			VP	--		RE	511
+#511			PP	--		MO	512
+#512			S	--		SB	513
+#513			S	--		--	0
+#EOS 60
+#BOS 62 15 887107745 1
+Der			ART	Def.Masc.Nom.Sg	NK	500
+älteste			ADJA	Sup.Masc.Nom.Sg.Sw	NK	500
+Künstler		NN	Masc.Nom.Sg.*	NK	500
+ist			VAFIN	3.Sg.Pres.Ind	HD	503
+Jahrgang		NN	Masc.Nom.Sg.*	NK	501
+1929			CARD	--		NK	501
+,			$,	--		--	0
+der			ART	Def.Masc.Nom.Sg	NK	502
+jüngste			ADJA	Sup.Masc.Nom.Sg.Sw	NK	502
+1963			CARD	--		PD	504
+.			$.	--		--	0
+#500			NP	--		SB	503
+#501			NP	--		PD	503
+#502			NP	--		SB	504
+#503			S	--		CJ	505
+#504			S	--		CJ	505
+#505			CS	--		--	0
+#EOS 62
+#BOS 63 5 861795139 1
+Sie			PPER	3.Pl.*.Nom	SB	502
+stammen			VVFIN	3.Pl.Pres.Ind	HD	502
+aus			APPR	Dat		AC	501
+Uganda			NE	Neut.Dat.Sg	CJ	500
+,			$,	--		--	0
+Nubien			NE	Neut.Dat.Sg	CJ	500
+,			$,	--		--	0
+Südafrika		NE	Neut.Dat.Sg	CJ	500
+,			$,	--		--	0
+Marokko			NE	Neut.Dat.Sg	CJ	500
+.			$.	--		--	0
+#500			CNP	--		NK	501
+#501			PP	--		MO	502
+#502			S	--		--	0
+#EOS 63
+#BOS 65 8 857144828 1
+Ngoma			FM	--		CJ	500
+,			$,	--		--	0
+Hosho			FM	--		CJ	500
+,			$,	--		--	0
+Kora			FM	--		CJ	500
+,			$,	--		--	0
+Tar			FM	--		CJ	500
+,			$,	--		--	0
+Donno			FM	--		CJ	500
+,			$,	--		--	0
+Brekete			FM	--		CJ	500
+,			$,	--		--	0
+Pretia			FM	--		CJ	500
+,			$,	--		--	0
+Aketse			FM	--		CJ	500
+,			$,	--		--	0
+Gidui			FM	--		CJ	500
+,			$,	--		--	0
+Mmbira			FM	--		CJ	500
+.			$.	--		--	0
+#500			CNP	--		--	0
+#EOS 65
+#BOS 66 8 848421030 1
+Die			ART	Def.*.Nom.Pl	NK	500
+afrikanischen		ADJA	Pos.*.Nom.Pl.Sw	NK	500
+Klänge			NN	Masc.Nom.Pl.*	NK	500
+schlagen		VVFIN	3.Pl.Pres.Ind	HD	503
+den			ART	Def.Masc.Akk.Sg	NK	501
+überraschten		ADJA	Pos.Masc.Akk.Sg.Sw	NK	501
+Hörer			NN	Masc.Akk.Sg.*	NK	501
+in			APPR	Akk		AC	502
+ihren			PPOSAT	Masc.Akk.Sg	NK	502
+Bann			NN	Masc.Akk.Sg.*	NK	502
+.			$.	--		--	0
+#500			NP	--		SB	503
+#501			NP	--		OA	503
+#502			PP	--		MO	503
+#503			S	--		--	0
+#EOS 66
+#BOS 68 5 855240644 1
+Dumisani		NE	*.Gen.Sg	PNC	500
+Maraire's		NE	*.Gen.Sg	PNC	500
+"			$(	--		--	0
+Mai			NN	*.Nom.Sg	PNC	501
+Nozipo			NE	*.Nom.Sg	PNC	501
+"			$(	--		--	0
+ist			VAFIN	3.Sg.Pres.Ind	HD	504
+ausgelassen		ADJD	Pos		CJ	502
+und			KON	--		CD	502
+volksliedhaft		ADJD	Pos		CJ	502
+.			$.	--		--	0
+#500			MPN	--		GL	503
+#501			MPN	--		NK	503
+#502			CAP	--		PD	504
+#503			NP	--		SB	504
+#504			S	--		--	0
+#EOS 68
+#BOS 69 5 861795259 1
+Hamza			NE	*.Gen.Sg	PNC	500
+El			NE	*.Gen.Sg	PNC	500
+Din's			NE	*.Gen.Sg	PNC	500
+"			$(	--		--	0
+Escalay			NE	*.Nom.Sg	NK	503
+"			$(	--		--	0
+beeindruckt		VVFIN	3.Sg.Pres.Ind	HD	507
+durch			APPR	Akk		AC	506
+klassische		ADJA	Pos.Fem.Akk.Sg.St	NK	501
+Strenge			NN	Fem.Akk.Sg.*	NK	501
+und			KON	--		CD	505
+Ausstrahlung		NN	Fem.Akk.Sg.*	NK	504
+hoher			ADJA	Pos.Fem.Gen.Sg.St	NK	502
+Würde			NN	Fem.Gen.Sg.*	NK	502
+.			$.	--		--	0
+#500			MPN	--		GL	503
+#501			NP	--		CJ	505
+#502			NP	--		GR	504
+#503			NP	--		SB	507
+#504			NP	--		CJ	505
+#505			CNP	--		NK	506
+#506			PP	--		MO	507
+#507			S	--		--	0
+#EOS 69
+#BOS 70 2 865791700 1
+Und			KON	--		JU	508
+wenn			KOUS	--		CP	505
+die			ART	Def.*.Nom.Pl	NK	500
+Komponisten		NN	Masc.Nom.Pl.*	NK	500
+zu			PTKZU	--		PM	501
+singen			VVINF	--		HD	501
+beginnen		VVFIN	3.Pl.Pres.Ind	HD	505
+,			$,	--		--	0
+gewinnt			VVFIN	3.Sg.Pres.Ind	HD	508
+die			ART	Def.Fem.Nom.Sg	NK	507
+vor			APPR	Dat		AC	502
+Spiellust		NN	Fem.Dat.Sg.*	NK	502
+überschäumende		ADJA	Pos.Fem.Nom.Sg.Sw	HD	506
+Aufnahme		NN	Fem.Nom.Sg.*	NK	507
+noch			ADV	--		MO	503
+stärker			ADJD	Comp		HD	503
+an			APPR	Dat		AC	504
+Lebendigkeit		NN	Fem.Dat.Sg.*	NK	504
+.			$.	--		--	0
+#500			NP	--		SB	505
+#501			VZ	--		OC	505
+#502			PP	--		MO	506
+#503			AP	--		MO	508
+#504			PP	--		MO	508
+#505			S	--		MO	508
+#506			AP	--		NK	507
+#507			NP	--		SB	508
+#508			S	--		--	0
+#EOS 70
+#BOS 71 3 871482068 1
+Daß			KOUS	--		CP	504
+mit			APPR	Dat		AC	500
+dem			ART	Def.Neut.Dat.Sg	NK	500
+afrikanischen		ADJA	Pos.Neut.Dat.Sg.Sw	NK	500
+Material		NN	Neut.Dat.Sg.*	NK	500
+jedoch			ADV	--		MO	504
+nicht			PTKNEG	--		NG	501
+immer			ADV	--		HD	501
+ein			ART	Indef.Masc.Nom.Sg	NK	502
+Glücksgriff		NN	Masc.Nom.Sg.*	NK	502
+gelingt			VVFIN	3.Sg.Pres.Ind	HD	504
+,			$,	--		--	0
+zeigt			VVFIN	3.Sg.Pres.Ind	HD	506
+die			ART	Def.Fem.Nom.Sg	NK	505
+kongolianische		ADJA	Pos.Fem.Nom.Sg.Sw	NK	505
+Messe			NN	Fem.Nom.Sg.*	NK	505
+"			$(	--		--	0
+Missa			NE	*.Nom.Sg	PNC	503
+Luba			NE	*.Nom.Sg	PNC	503
+"			$(	--		--	0
+.			$.	--		--	0
+#500			PP	--		MO	504
+#501			AVP	--		MO	504
+#502			NP	--		SB	504
+#503			MPN	--		NK	505
+#504			S	--		OC	506
+#505			NP	--		SB	506
+#506			S	--		--	0
+#EOS 71
+#BOS 74 5 850397065 1
+Nur			ADV	--		MO	506
+versetzte		VVFIN	3.Sg.Past.Ind	HD	506
+Guido			NE	Masc.Nom.Sg	PNC	500
+Haazen			NE	*.Nom.Sg	PNC	500
+in			APPR	Dat		AC	501
+seiner			PPOSAT	Fem.Dat.Sg	NK	501
+Bearbeitung		NN	Fem.Dat.Sg.*	NK	501
+,			$,	--		--	0
+die			ART	Def.*.Akk.Pl	NK	505
+an			APPR	Akk		AC	502
+sich			PRF	*.*.*		NK	502
+netten			ADJA	Pos.*.Akk.Pl.Sw	HD	504
+Melodien		NN	Fem.Akk.Pl.*	NK	505
+mit			APPR	Dat		AC	503
+krampfigen		ADJA	Pos.*.Dat.Pl.St	NK	503
+Pop-Elementen		NN	Neut.Dat.Pl.*	NK	503
+.			$.	--		--	0
+#500			MPN	--		SB	506
+#501			PP	--		MO	506
+#502			PP	--		MO	504
+#503			PP	--		MO	506
+#504			AP	--		NK	505
+#505			NP	--		OA	506
+#506			S	--		--	0
+#EOS 74
+#BOS 79 3 872069255 2
+Turmbau			NN	Masc.Nom.Sg.*	NK	501
+zu			APPR	Dat		AC	500
+Kabel			NN	Neut.Dat.Sg.*	NK	500
+#500			PP	--		MNR	501
+#501			NP	--		--	0
+#EOS 79
+#BOS 90 3 867232127 2
+Soll			VMFIN	3.Sg.Pres.Ind	HD	503
+bloß			ADJD	Pos		MO	503
+einer			PIS	Masc.Nom.Sg	SB	503
+sagen			VVINF	--		HD	502
+,			$,	--		--	0
+ich			PPER	1.Sg.*.Nom	SB	501
+würde			VAFIN	1.Sg.Pres.Konj	HD	501
+jetzt			ADV	--		MO	500
+wahllos			ADJD	Pos		MO	500
+fernsehen		VVINF	--		HD	500
+!			$.	--		--	0
+#500			VP	--		OC	501
+#501			S	--		OC	502
+#502			VP	--		OC	503
+#503			S	--		--	0
+#EOS 90
+#BOS 91 3 867232142 2
+Noch			ADV	--		MO	500
+nie			ADV	--		HD	500
+habe			VAFIN	1.Sg.Pres.Ind	HD	503
+ich			PPER	1.Sg.*.Nom	SB	503
+so			ADV	--		MO	501
+viel			ADV	--		HD	501
+gewählt			VVPP	--		HD	502
+.			$.	--		--	0
+#500			AVP	--		MO	502
+#501			AVP	--		MO	502
+#502			VP	--		OC	503
+#503			S	--		--	0
+#EOS 91
+#BOS 93 8 849620515 2
+Eine			ART	Indef.Fem.Akk.Sg	NK	501
+Sekunde			NN	Fem.Akk.Sg.*	NK	501
+pro			APPR	Akk		AC	500
+Kanal			NN	Masc.Akk.Sg.*	NK	500
+.			$.	--		--	0
+#500			PP	--		MNR	501
+#501			NP	--		--	0
+#EOS 93
+#BOS 94 3 863209175 2
+Es			PPER	3.Sg.Neut.Nom	PH	501
+kam			VVFIN	3.Sg.Past.Ind	HD	502
+nichts			PIAT	*.*.*		NK	500
+Interessantes		NN	Neut.Nom.Sg.St	NK	500
+.			$.	--		--	0
+#500			NP	--		RE	501
+#501			NP	--		SB	502
+#502			S	--		--	0
+#EOS 94
+#BOS 96 3 867177166 2 %% ????
+Der			ART	Def.Masc.Nom.Sg	NK	503
+Spot			NN	Masc.Nom.Sg.*	NK	503
+,			$,	--		--	0
+so			ADV	--		MO	502
+ein			ART	Indef.Masc.Nom.Sg	NK	502
+Halbminüter		NN	Masc.Nom.Sg.*	NK	502
+,			$,	--		--	0
+denke			VVFIN	1.Sg.Pres.Ind	HD	500
+ich			PPER	1.Sg.*.Nom	SB	500
+,			$,	--		--	0
+ging			VVFIN	3.Sg.Past.Ind	HD	504
+gerade			ADV	--		MO	504
+zu			APPR	Dat		AC	501
+Ende			NN	Neut.Dat.Sg.*	NK	501
+.			$.	--		--	0
+#500			S	--		DH	502
+#501			PP	--		MO	504
+#502			NP	--		APP	503
+#503			NP	--		SB	504
+#504			S	--		--	0
+#EOS 96
+#BOS 97 3 867177217 2
+Es			PPER	3.Sg.Neut.Nom	SB	513
+ging			VVFIN	3.Sg.Past.Ind	HD	513
+um			APPR	Akk		AC	511
+irgendein		PIAT	Neut.Akk.Sg	NK	511
+Waschmittel		NN	Neut.Akk.Sg.*	NK	511
+,			$,	--		--	0
+"			$(	--		--	0
+Panal			NE	*.Nom.Sg	NK	508
+"			$(	--		--	0
+glaube			VVFIN	1.Sg.Pres.Ind	HD	500
+ich			PPER	1.Sg.*.Nom	SB	500
+,			$,	--		--	0
+und			KON	--		CD	518
+am			APPRART	Dat.Masc	AC	501
+Anfang			NN	Masc.Dat.Sg.*	NK	501
+hatten			VAFIN	3.Pl.Past.Ind	HD	517
+sie			PPER	3.Pl.*.Nom	SB	517
+furchtbar		ADJD	Pos		MO	502
+militaristische		ADJA	Pos.*.Akk.Pl.St	HD	502
+Trick-Aufnahmen		NN	Fem.Akk.Pl.*	NK	516
+von			APPR	Dat		AC	515
+den			ART	Def.*.Dat.Pl	NK	515
+einzelnen		ADJA	Pos.*.Dat.Pl.Sw	NK	515
+Körnern			NN	Neut.Dat.Pl.*	NK	515
+,			$,	--		--	0
+die			PRELS	*.Nom.Pl	SB	509
+Füße			NN	Masc.Akk.Pl.*	CJ	503
+und			KON	--		CD	503
+Köpfe			NN	Masc.Akk.Pl.*	CJ	503
+haben			VAFIN	3.Pl.Pres.Ind	HD	509
+und			KON	--		CD	514
+als			KOKOM	--		AC	504
+Heer			NN	Neut.Nom.Sg.*	NK	504
+über			APPR	Akk		AC	505
+ein			ART	Indef.Neut.Akk.Sg	NK	505
+Hemd			NN	Neut.Akk.Sg.*	NK	505
+marschieren		VVFIN	3.Pl.Pres.Ind	HD	512
+,			$,	--		--	0
+wobei			PWAV	--		MO	510
+sie			PPER	3.Pl.*.Nom	SB	510
+sämtliche		PIDAT	*.Akk.Pl	NK	506
+Schmutzpartikel		NN	Masc.Akk.Pl.*	NK	506
+wie			KOKOM	--		CM	507
+Fußbälle		NN	Masc.Akk.Pl.*	NK	507
+wegkicken		VVFIN	--		HD	510
+.			$.	--		--	0
+#500			S	--		DH	508
+#501			PP	--		MO	517
+#502			AP	--		NK	516
+#503			CNP	--		OA	509
+#504			PP	--		MO	512
+#505			PP	--		MO	512
+#506			NP	--		OA	510
+#507			NP	--		MO	510
+#508			NP	--		APP	511
+#509			S	--		CJ	514
+#510			S	--		MO	512
+#511			PP	--		MO	513
+#512			S	--		CJ	514
+#513			S	--		CJ	518
+#514			CS	--		RC	515
+#515			PP	--		PG	516
+#516			NP	--		OA	517
+#517			S	--		CJ	518
+#518			CS	--		--	0
+#EOS 97
+#BOS 98 3 876913224 2 %% ??????? DR
+Daraufhin		PROAV	--		CJ	507
+und			KON	--		CD	507
+ich			PPER	1.Sg.*.Nom	SB	500
+glaube			VVFIN	1.Sg.Pres.Ind	HD	500
+auch			ADV	--		MO	506
+,			$,	--		--	0
+weil			KOUS	--		CP	506
+mein			PPOSAT	Masc.Nom.Sg	NK	501
+Bekannter		NN	Masc.Nom.Sg.Mix	NK	501
+"			$(	--		--	0
+Tor			NN	Neut.Akk.Sg.*	OA	506
+!			$.	--		--	0
+"			$(	--		--	0
+rief			VVFIN	3.Sg.Past.Ind	HD	506
+,			$,	--		--	0
+was			PRELS	Neut.Akk.Sg	OA	505
+ich			PPER	1.Sg.*.Nom	SB	505
+als			KOKOM	--		AC	504
+ironischen		ADJA	Pos.Masc.Akk.Sg.St	NK	504
+Ausdruck		NN	Masc.Akk.Sg.*	NK	504
+seines			PPOSAT	Neut.Gen.Sg	NK	502
+Mißbehagens		NN	Neut.Gen.Sg.*	NK	502
+empfand			VVFIN	1.Sg.Past.Ind	HD	505
+,			$,	--		--	0
+schaltete		VVFIN	1.Sg.Past.Ind	HD	508
+ich			PPER	1.Sg.*.Nom	SB	508
+um			PTKVZ	--		SVP	508
+auf			APPR	Akk		AC	503
+die			ART	Def.*.Akk.Pl	NK	503
+anderen			ADJA	Pos.*.Akk.Pl.Sw	NK	503
+Sender			NN	Masc.Akk.Pl.*	NK	503
+.			$.	--		--	0
+#500			S	--		DH	506
+#501			NP	--		SB	506
+#502			NP	--		GR	504
+#503			PP	--		MO	508
+#504			PP	--		MO	505
+#505			S	--		RC	506
+#506			S	--		CJ	507
+#507			CO	--		MO	508
+#508			S	--		--	0
+#EOS 98
+#BOS 99 3 876913249 2
+Mein			PPOSAT	Masc.Nom.Sg	NK	500
+Bekannter		NN	Masc.Nom.Sg.Mix	NK	500
+sagte			VVFIN	3.Sg.Past.Ind	HD	502
+:			$.	--		--	0
+Laß			VVIMP	Sg		HD	501
+doch			ADV	--		MO	501
+!			$.	--		--	0
+#500			NP	--		SB	502
+#501			S	--		OC	502
+#502			S	--		--	0
+#EOS 99
+#BOS 100 15 887108106 2
+Darauf			PROAV	--		MO	500
+ich			PPER	1.Sg.*.Nom	SB	500
+:			$.	--		--	0
+Ja			PTKANT	--		DM	501
+,			$,	--		--	0
+gleich			ADV	--		MO	501
+.			$.	--		--	0
+#500			S	--		DH	502
+#501			S	--		RS	502
+#502			DL	--		--	0
+#EOS 100
+#BOS 101 3 871482203 2
+Es			PPER	3.Sg.Neut.Nom	PH	508
+ergeben			VVFIN	3.Sg.Pres.Ind	HD	509
+sich			PRF	*.*.*		OA	509
+beim			APPRART	Dat.Neut	AC	500
+Kabelfernsehen		NN	Neut.Dat.Sg.*	NK	500
+manchmal		ADV	--		MO	509
+sehr			ADV	--		MO	501
+interessante		ADJA	Pos.*.Nom.Pl.St	HD	501
+Dialoge			NN	Masc.Nom.Pl.*	NK	507
+,			$,	--		--	0
+die			PRELS	*.Nom.Pl	SB	506
+für			APPR	Akk		AC	502
+Außenstehende		ADJA	*.Akk.Pl.St	NK	502
+oft			ADV	--		MO	505
+nicht			PTKNEG	--		NG	503
+ohne			APPR	Akk		AC	503
+Weiteres		NN	Neut.Akk.Sg.*	NK	503
+zu			PTKZU	--		PM	504
+verstehen		VVINF	--		HD	504
+sind			VAFIN	3.Pl.Pres.Ind	HD	506
+.			$.	--		--	0
+#500			PP	--		MO	509
+#501			AP	--		NK	507
+#502			PP	--		MO	505
+#503			PP	--		MO	505
+#504			VZ	--		HD	505
+#505			VP	--		OC	506
+#506			S	--		RC	507
+#507			NP	--		RE	508
+#508			NP	--		SB	509
+#509			S	--		--	0
+#EOS 101
+#BOS 102 3 867232587 2
+Jedenfalls		ADV	--		MO	503
+muß			VMFIN	1.Sg.Pres.Ind	HD	504
+ich			PPER	1.Sg.*.Nom	SB	504
+zugeben			VVINF	--		HD	503
+,			$,	--		--	0
+daß			KOUS	--		CP	502
+er			PPER	3.Sg.Masc.Nom	SB	502
+recht			ADJD	Pos		OA	502
+hatte			VAFIN	3.Sg.Past.Ind	HD	502
+,			$,	--		--	0
+und			KON	--		AVC	500
+zwar			ADV	--		AVC	500
+in			APPR	Dat		AC	501
+doppeltem		ADJA	Pos.Masc.Dat.Sg.St	NK	501
+Sinn			NN	Masc.Dat.Sg.*	NK	501
+.			$.	--		--	0
+#500			AVP	--		MO	501
+#501			PP	--		MO	502
+#502			S	--		OC	503
+#503			VP	--		OC	504
+#504			S	--		--	0
+#EOS 102
+#BOS 103 3 872069497 2
+Denn			KON	--		JU	504
+erstens			ADV	--		MO	501
+waren			VAFIN	3.Pl.Past.Ind	HD	504
+die			ART	Def.*.Nom.Pl	NK	500
+anderen			ADJA	Pos.*.Nom.Pl.Sw	NK	500
+Programme		NN	Neut.Nom.Pl.*	NK	500
+auch			ADV	--		MO	500
+nicht			PTKNEG	--		NG	501
+interessanter		ADJD	Comp		HD	501
+,			$,	--		--	0
+und			KON	--		CD	508
+zweitens		ADV	--		MO	506
+hatte			VAFIN	3.Sg.Past.Ind	HD	507
+sich			PRF	3.Akk.Sg	OA	506
+die			ART	Def.Fem.Nom.Sg	NK	502
+Waschmittel-Werbung	NN	Fem.Nom.Sg.*	NK	502
+,			$,	--		--	0
+als			KOUS	--		CP	505
+wir			PPER	1.Pl.*.Nom	SB	505
+wieder			ADV	--		MO	503
+dorthin			ADV	--		MO	503
+zurückgekehrt		VVPP	--		HD	503
+waren			VAFIN	1.Pl.Past.Ind	HD	505
+,			$,	--		--	0
+erstaunlich		ADJD	Pos		MO	506
+entwickelt		VVPP	--		HD	506
+.			$.	--		--	0
+#500			NP	--		SB	504
+#501			AP	--		PD	504
+#502			NP	--		SB	507
+#503			VP	--		OC	505
+#504			S	--		CJ	508
+#505			S	--		MO	506
+#506			VP	--		OC	507
+#507			S	--		CJ	508
+#508			CS	--		--	0
+#EOS 103
+#BOS 104 5 861795996 2
+Die			ART	Def.*.Nom.Pl	NK	500
+letzten			ADJA	Pos.*.Nom.Pl.Sw	NK	500
+Sekunden		NN	Fem.Nom.Pl.*	NK	500
+waren			VAFIN	3.Pl.Past.Ind	HD	503
+unbeschreiblich		ADJD	Pos		MO	502
+sanft			ADJD	Pos		CJ	501
+und			KON	--		CD	501
+lyrisch			ADJD	Pos		CJ	501
+:			$.	--		--	0
+#500			NP	--		SB	503
+#501			CAP	--		HD	502
+#502			AP	--		PD	503
+#503			S	--		--	0
+#EOS 104
+#BOS 106 3 872069609 2
+Das			PDS	Neut.Nom.Sg	SB	506
+dauerte			VVFIN	3.Sg.Past.Ind	HD	506
+maximal			ADJD	Pos		MO	500
+vier			CARD	--		HD	500
+Sekunden		NN	Fem.Akk.Pl.*	NK	504
+,			$,	--		--	0
+aber			KON	--		CD	513
+wir			PPER	1.Pl.*.Nom	SB	512
+waren			VAFIN	1.Pl.Past.Ind	HD	512
+so			ADV	--		HD	510
+überwältigt		VVPP	--		HD	511
+,			$,	--		--	0
+daß			KOUS	--		CP	509
+ich			PPER	1.Sg.*.Nom	SB	509
+spontan			ADJD	Pos		MO	509
+dem			ART	Def.Masc.Dat.Sg	NK	508
+Impuls			NN	Masc.Dat.Sg.*	NK	508
+nachgab			VVFIN	1.Sg.Past.Ind	HD	509
+,			$,	--		--	0
+das			ART	Def.Neut.Akk.Sg	NK	501
+Gerät			NN	Neut.Akk.Sg.*	NK	501
+auszuschalten		VVIZU	--		HD	507
+,			$,	--		--	0
+um			KOUI	--		CP	505
+diese			PDAT	*.Akk.Pl	NK	502
+eindrucksvollen		ADJA	Pos.*.Akk.Pl.Sw	NK	502
+Bilder			NN	Neut.Akk.Pl.*	NK	502
+nachwirken		VVINF	--		OC	505
+zu			PTKZU	--		PM	503
+lassen			VVINF	--		HD	503
+.			$.	--		--	0
+#500			AP	--		NK	504
+#501			NP	--		OA	507
+#502			NP	--		OA	505
+#503			VZ	--		HD	505
+#504			NP	--		OA	506
+#505			VP	--		MO	507
+#506			S	--		CJ	513
+#507			VP	--		OC	508
+#508			NP	--		DA	509
+#509			S	--		CC	510
+#510			AVP	--		MO	511
+#511			VP	--		PD	512
+#512			S	--		CJ	513
+#513			CS	--		--	0
+#EOS 106
+#BOS 107 3 876913276 2
+Mein			PPOSAT	Masc.Nom.Sg	NK	500
+Besucher		NN	Masc.Nom.Sg.*	NK	500
+sagte			VVFIN	3.Sg.Past.Ind	HD	502
+:			$.	--		--	0
+"			$(	--		--	0
+Laß			VVIMP	Sg		HD	501
+doch			ADV	--		MO	501
+!			$.	--		--	0
+"			$(	--		--	0
+#500			NP	--		SB	502
+#501			S	--		OC	502
+#502			S	--		--	0
+#EOS 107
+#BOS 108 3 876913321 2
+Ich			PPER	1.Sg.*.Nom	DH	501
+:			$.	--		--	0
+"			$(	--		--	0
+Ich			PPER	1.Sg.*.Nom	SB	500
+lasse			VVFIN	1.Sg.Pres.Ind	HD	500
+es			PPER	3.Sg.Neut.Akk	OA	500
+ja			ADV	--		MO	500
+.			$.	--		--	0
+"			$(	--		--	0
+#500			S	--		RS	501
+#501			DL	--		--	0
+#EOS 108
+#BOS 109 3 867171587 2
+Daraufhin		PROAV	--		MO	505
+sagte			VVFIN	3.Sg.Past.Ind	HD	505
+er			PPER	3.Sg.Masc.Nom	SB	505
+,			$,	--		--	0
+es			PPER	3.Sg.Neut.Nom	SB	503
+sei			VAFIN	3.Sg.Pres.Konj	HD	503
+ohnehin			ADV	--		MO	503
+Zeit			NN	Fem.Nom.Sg.*	NK	502
+für			APPR	Akk		AC	500
+ihn			PPER	3.Sg.Masc.Akk	NK	500
+,			$,	--		--	0
+und			KON	--		CD	504
+er			PPER	3.Sg.Masc.Nom	SB	501
+müsse			VMFIN	3.Sg.Pres.Konj	HD	501
+jetzt			ADV	--		MO	501
+leider			ADV	--		MO	501
+gehen			VVINF	--		OC	501
+.			$.	--		--	0
+#500			PP	--		MNR	502
+#501			S	--		CJ	504
+#502			NP	--		PD	503
+#503			S	--		CJ	504
+#504			CS	--		OC	505
+#505			S	--		--	0
+#EOS 109
+#BOS 110 3 876760438 2
+Als			KOUS	--		CP	502
+ich			PPER	1.Sg.*.Nom	SB	502
+wieder			ADV	--		MO	500
+alleine			ADV	--		HD	500
+war			VAFIN	1.Sg.Past.Ind	HD	502
+,			$,	--		--	0
+gab			VVFIN	1.Sg.Past.Ind	HD	505
+ich			PPER	1.Sg.*.Nom	SB	505
+spontan			ADJD	Pos		MO	505
+dem			ART	Def.Masc.Dat.Sg	NK	504	%% F
+Impuls			NN	Masc.Dat.Sg.*	NK	504
+nach			PTKVZ	--		SVP	505	%% F
+,			$,	--		--	0
+das			ART	Def.Neut.Akk.Sg	NK	501
+Gerät			NN	Neut.Akk.Sg.*	NK	501
+wieder			ADV	--		MO	503
+einzuschalten		VVIZU	--		HD	503	%% F
+.			$.	--		--	0
+#500			AVP	--		PD	502
+#501			NP	--		OA	503
+#502			S	--		MO	505
+#503			VP	--		OC	504
+#504			NP	--		DA	505
+#505			S	--		--	0
+#EOS 110
+#BOS 111 3 861217776 2
+Ohne			APPR	Akk		AC	500
+meinen			PPOSAT	Masc.Akk.Sg	NK	500
+Bekannten		NN	Masc.Akk.Sg.Mix	NK	500
+fühlte			VVFIN	1.Sg.Past.Ind	HD	503
+ich			PPER	1.Sg.*.Nom	SB	503
+mich			PRF	1.Akk.Sg	OA	503
+noch			ADV	--		MO	502
+freier			ADJD	Comp		HD	502
+in			APPR	Dat		AC	501
+meiner			PPOSAT	Fem.Dat.Sg	NK	501
+Auswahl			NN	Fem.Dat.Sg.*	NK	501
+.			$.	--		--	0
+#500			PP	--		MO	503
+#501			PP	--		MO	502
+#502			AP	--		MO	503
+#503			S	--		--	0
+#EOS 111
+#BOS 112 8 864220994 2
+Diesmal			ADV	--		MO	505
+ließ			VVFIN	1.Sg.Past.Ind	HD	505
+ich			PPER	1.Sg.*.Nom	SB	505
+mir			PRF	1.Dat.Sg	DA	505
+mehr			PIAT	*.*.*		NK	504
+Zeit			NN	Fem.Akk.Sg.*	NK	504
+,			$,	--		--	0
+eher			ADV	--		HD	502
+eine			ART	Indef.Fem.Akk.Sg	NK	503
+Minute			NN	Fem.Akk.Sg.*	NK	503
+als			KOKOM	--		CM	500
+eine			ART	Indef.Fem.Akk.Sg	NK	500
+Sekunde			NN	Fem.Akk.Sg.*	NK	500
+pro			APPR	Akk		AC	501
+Kanal			NN	Masc.Akk.Sg.*	NK	501
+.			$.	--		--	0
+#500			NP	--		CC	502
+#501			PP	--		MNR	503
+#502			AVP	--		NK	503
+#503			NP	--		APP	504
+#504			NP	--		OA	505
+#505			S	--		--	0
+#EOS 112
+#BOS 113 3 861470634 2
+Es			PPER	3.Sg.Neut.Nom	PH	501
+kam			VVFIN	3.Sg.Past.Ind	HD	502
+trotzdem		PROAV	--		MO	502
+nichts			PIAT	*.*.*		NK	500
+Interessantes		NN	Neut.Nom.Sg.St	NK	500
+.			$.	--		--	0
+#500			NP	--		RE	501
+#501			NP	--		SB	502
+#502			S	--		--	0
+#EOS 113
+#BOS 116 8 857145966 3
+Das			ART	Def.Neut.Nom.Sg	NK	500
+Filmmuseum		NN	Neut.Nom.Sg.*	NK	500
+zeigt			VVFIN	3.Sg.Pres.Ind	HD	503
+eine			ART	Indef.Fem.Akk.Sg	NK	502
+Reihe			NN	Fem.Akk.Sg.*	NK	502
+mexikanischer		ADJA	Pos.*.Gen.Pl.St	NK	501
+Filme			NN	Masc.Gen.Pl.*	NK	501
+#500			NP	--		SB	503
+#501			NP	--		GR	502
+#502			NP	--		OA	503
+#503			S	--		--	0
+#EOS 116
+#BOS 117 8 857145966 3
+Den			ART	Def.Masc.Akk.Sg	NK	504
+Auftakt			NN	Masc.Akk.Sg.*	NK	504
+zu			APPR	Dat		AC	503
+dem			ART	Def.Masc.Dat.Sg	NK	503
+Reigen			NN	Masc.Dat.Sg.*	NK	503
+kultureller		ADJA	Pos.*.Gen.Pl.St	NK	500
+Veranstaltungen		NN	Fem.Gen.Pl.*	NK	500
+anläßlich		APPR	Gen		AC	501
+des			ART	Def.Masc.Gen.Sg	NK	501
+Buchmessen-Schwerpunkts	NN	Masc.Gen.Sg.*	NK	501
+Mexiko			NE	Neut.Nom.Sg	NK	501
+macht			VVFIN	3.Sg.Pres.Ind	HD	505
+das			ART	Def.Neut.Nom.Sg	NK	502
+Kommunale		ADJA	Pos.Neut.Nom.Sg.Sw	NK	502
+Kino			NN	Neut.Nom.Sg.*	NK	502
+:			$.	--		--	0
+#500			NP	--		GR	503
+#501			PP	--		MNR	503
+#502			NP	--		SB	505
+#503			PP	--		MNR	504
+#504			NP	--		OA	505
+#505			S	--		--	0
+#EOS 117
+#BOS 118 5 850074804 3
+Anfang			NN	Masc.Dat.Sg.*	NK	500
+September		NN	Masc.Dat.Sg.*	NK	500
+beginnt			VVFIN	3.Sg.Pres.Ind	HD	504
+dort			ADV	--		MO	504
+eine			ART	Indef.Fem.Nom.Sg	NK	503
+kleine			ADJA	Pos.Fem.Nom.Sg.Mix	NK	503
+Reihe			NN	Fem.Nom.Sg.*	NK	503
+mit			APPR	Dat		AC	502
+Werken			NN	Neut.Dat.Pl.*	NK	502
+des			ART	Def.Neut.Gen.Sg	NK	501
+mexikanischen		ADJA	Pos.Neut.Gen.Sg.Sw	NK	501
+Gegenwartskinos		NN	Neut.Gen.Sg.*	NK	501
+.			$.	--		--	0
+#500			NP	--		MO	504
+#501			NP	--		GR	502
+#502			PP	--		MNR	503
+#503			NP	--		SB	504
+#504			S	--		--	0
+#EOS 118
+#BOS 119 3 867233004 3
+Die			ART	Def.*.Nom.Pl	NK	512
+neun			CARD	--		NK	512
+Filme			NN	Masc.Nom.Pl.*	NK	512
+des			ART	Def.Neut.Gen.Sg	NK	500
+Programms		NN	Neut.Gen.Sg.*	NK	500
+,			$,	--		--	0
+alle			PIS	*.Nom.Pl	MO	506
+in			APPR	Dat		AC	501
+den			ART	Def.*.Dat.Pl	NK	501
+beiden			PIDAT	*.Dat.Pl	NK	501
+vergangenen		ADJA	Pos.*.Dat.Pl.Sw	NK	501
+Jahren			NN	Neut.Dat.Pl.*	NK	501
+realisiert		VVPP	--		HD	506
+(			$(	--		--	0
+und			KON	--		CD	511
+hier			ADV	--		MO	509
+erfreulicherweise	ADV	--		MO	509
+in			APPR	Dat		AC	502
+Originalfassung		NN	Fem.Dat.Sg.*	NK	502
+mit			APPR	Dat		AC	507
+deutschen		ADJA	Pos.*.Dat.Pl.St	CJ	503
+und			KON	--		CD	503
+englischen		ADJA	Pos.*.Dat.Pl.St	CJ	503
+Untertiteln		NN	Masc.Dat.Pl.*	NK	507
+zu			PTKZU	--		PM	504
+sehen			VVINF	--		HD	504
+)			$(	--		--	0
+,			$,	--		--	0
+lassen			VVFIN	3.Pl.Pres.Ind	HD	513
+die			ART	Def.*.Akk.Pl	NK	508
+vielen			PIDAT	*.Akk.Pl	NK	508
+Gesichter		NN	Neut.Akk.Pl.*	NK	508
+des			ART	Def.Neut.Gen.Sg	NK	505
+krisengeschüttelten	ADJA	Pos.Neut.Gen.Sg.Sw	NK	505
+Mexikos			NE	Neut.Gen.Sg	NK	505
+erkennen		VVINF	--		HD	510
+.			$.	--		--	0
+#500			NP	--		GR	512
+#501			PP	--		MO	506
+#502			PP	--		MO	509
+#503			CAP	--		NK	507
+#504			VZ	--		HD	509
+#505			NP	--		GR	508
+#506			VP	--		CJ	511
+#507			PP	--		MO	509
+#508			NP	--		OA	510
+#509			VP	--		CJ	511
+#510			VP	--		OC	513
+#511			CVP	--		MNR	512
+#512			NP	--		SB	513
+#513			S	--		--	0
+#EOS 119
+#BOS 122 3 863273845 3
+Als			KOKOM	--		AC	500
+Illusion		NN	Fem.Nom.Sg.*	NK	500
+entpuppen		VVFIN	3.Pl.Pres.Ind	HD	504
+sich			PRF	3.Akk.Pl	OA	504
+dort			ADV	--		MO	504
+die			ART	Def.*.Nom.Pl	NK	503
+Träume			NN	Masc.Nom.Pl.*	NK	503
+einer			ART	Indef.Fem.Gen.Sg	NK	501
+17jährigen		ADJA	Fem.Gen.Sg.Mix	NK	501
+von			APPR	Dat		AC	502
+der			ART	Def.Fem.Dat.Sg	NK	502
+großen			ADJA	Pos.Fem.Dat.Sg.Sw	NK	502
+,			$,	--		--	0
+weiten			ADJA	Pos.Fem.Dat.Sg.Sw	NK	502
+Welt			NN	Fem.Dat.Sg.*	NK	502
+.			$.	--		--	0
+#500			PP	--		MO	504
+#501			NP	--		GR	503
+#502			PP	--		MNR	503
+#503			NP	--		SB	504
+#504			S	--		--	0
+#EOS 122
+#BOS 145 3 863275565 4
+San			NE	*.Nom.Sg	--	0
+#EOS 145
+#BOS 147 3 863275565 5
+Der			ART	Def.Masc.Nom.Sg	NK	502
+preußische		ADJA	Pos.Masc.Nom.Sg.Sw	NK	502
+Zuschnitt		NN	Masc.Nom.Sg.*	NK	502
+der			ART	Def.Fem.Gen.Sg	NK	500
+Polizei			NN	Fem.Gen.Sg.*	NK	500
+stieß			VVFIN	3.Sg.Past.Ind	HD	503
+auf			APPR	Akk		AC	501
+Haß			NN	Masc.Akk.Sg.*	NK	501
+#500			NP	--		GR	502
+#501			PP	--		MO	503
+#502			NP	--		SB	503
+#503			S	--		--	0
+#EOS 147
+#BOS 148 3 863275565 5
+Stadt			NN	Fem.Nom.Sg.*	CJ	500
+und			KON	--		CD	500
+Bürger			NN	Masc.Nom.Pl.*	CJ	500
+büßten			VVFIN	3.Pl.Past.Ind	HD	502
+ihren			PPOSAT	Masc.Akk.Sg	NK	501
+Einfluß			NN	Masc.Akk.Sg.*	NK	501
+ein			PTKVZ	--		SVP	502
+#500			CNP	--		SB	502
+#501			NP	--		OA	502
+#502			S	--		--	0
+#EOS 148
+#BOS 149 3 863275565 5
+Die			ART	Def.Fem.Nom.Sg	NK	506
+Macht			NN	Fem.Nom.Sg.*	NK	506
+des			ART	Def.Neut.Gen.Sg	NK	505
+Stadtregiments		NN	Neut.Gen.Sg.*	NK	505
+,			$,	--		--	0
+das			PRELS	Neut.Nom.Sg	SB	504
+im			APPRART	Dat.Neut	AC	500
+Mittelalter		NN	Neut.Dat.Sg.*	NK	500
+in			APPR	Dat		AC	503
+Händen			NN	Fem.Dat.Pl.*	NK	503
+des			ART	Def.Masc.Gen.Sg	NK	501
+Stadtadels		NN	Masc.Gen.Sg.*	NK	501
+lag			VVFIN	3.Sg.Past.Ind	HD	504
+,			$,	--		--	0
+mußte			VMFIN	3.Sg.Past.Ind	HD	507
+geschützt		VVPP	--		OC	502
+werden			VAINF	--		HD	502
+.			$.	--		--	0
+#500			PP	--		MO	504
+#501			NP	--		GR	503
+#502			VP	--		OC	507
+#503			PP	--		MO	504
+#504			S	--		RC	505
+#505			NP	--		GR	506
+#506			NP	--		SB	507
+#507			S	--		--	0
+#EOS 149
+#BOS 150 2 881167940 5
+So			ADV	--		MO	510
+gab			VVFIN	3.Sg.Past.Ind	HD	510
+es			PPER	3.Sg.Neut.Nom	SB	510
+schon			ADV	--		MO	500
+um			APPR	Akk		AC	500
+1388			CARD	--		NK	500
+polizeiliche		ADJA	Pos.*.Akk.Pl.St	NK	509	%% F
+Maßnahmen		NN	Fem.Akk.Pl.*	NK	509
+,			$,	--		--	0
+die			PRELS	*.Nom.Pl	SB	503	%% F
+urkundlich		ADJD	Pos		MO	501
+erwähnt			VVPP	--		HD	501
+sind			VAFIN	3.Pl.Pres.Ind	HD	503
+und			KON	--		CD	508
+sich			PRF	3.Akk.Pl	OA	507
+gegen			APPR	Akk		AC	506
+"			$(	--		--	0
+Auswüchse		NN	Masc.Akk.Pl.*	NK	506
+"			$(	--		--	0
+der			ART	Def.*.Gen.Pl	NK	505	%% F?
+Bürger			NN	Masc.Gen.Pl.*	NK	505
+richteten		VVFIN	3.Pl.Past.Ind	HD	507	%% F
+,			$,	--		--	0
+denen			PRELS	*.Dat.Pl	DA	504	%% F R?
+man			PIS	*.Nom.Sg	SB	504
+"			$(	--		--	0
+Verschwendungssucht	NN	Fem.Akk.Sg.*	CJ	502
+und			KON	--		CD	502
+Sittenverfall		NN	Masc.Akk.Sg.*	CJ	502
+"			$(	--		--	0
+vorwarf			VVFIN	3.Sg.Past.Ind	HD	504
+.			$.	--		--	0
+#500			PP	--		MO	510
+#501			VP	--		PD	503
+#502			CNP	--		OA	504
+#503			S	--		CJ	508
+#504			S	--		RC	505
+#505			NP	--		GR	506
+#506			PP	--		MO	507
+#507			S	--		CJ	508
+#508			CS	--		RC	509
+#509			NP	--		OA	510
+#510			S	--		--	0
+#EOS 150
+#BOS 151 5 851191609 5
+Diese			PDAT	Fem.Nom.Sg	NK	500
+Polizeigewalt		NN	Fem.Nom.Sg.*	NK	500
+ging			VVFIN	3.Sg.Past.Ind	HD	502
+von			APPR	Dat		AC	501
+den			ART	Def.*.Dat.Pl	NK	501
+Ratsherren		NN	Masc.Dat.Pl.*	NK	501
+aus			PTKVZ	--		SVP	502
+.			$.	--		--	0
+#500			NP	--		SB	502
+#501			PP	--		MO	502
+#502			S	--		--	0
+#EOS 151
+#BOS 152 3 872070495 5
+In			APPR	Dat		AC	511
+einer			ART	Indef.Fem.Dat.Sg	NK	511
+historischen		ADJA	Pos.Fem.Dat.Sg.Mix	NK	511
+Rückblende		NN	Fem.Dat.Sg.*	NK	511
+,			$,	--		--	0
+die			PRELS	Fem.Nom.Sg	SB	510
+aus			APPR	Dat		AC	508
+Anlaß			NN	Masc.Dat.Sg.*	NK	508
+des			ART	Def.Neut.Gen.Sg	NK	505
+125jährigen		ADJA	Pos.Neut.Gen.Sg.Sw	NK	505
+Bestehens		NN	Neut.Gen.Sg.*	NK	505
+des			ART	Def.Neut.Gen.Sg	NK	500
+Frankfurter		ADJA	*.*.*.*.*	NK	500
+Polizeipräsidiums	NN	Neut.Gen.Sg.*	NK	500
+jetzt			ADV	--		MO	509
+von			APPR	Dat		AC	506
+Hauptkommissar		NN	Masc.Nom.Sg.*	NK	506
+Kurt			NE	Masc.Dat.Sg	PNC	501
+Kraus			NE	*.Dat.Sg	PNC	501
+in			APPR	Dat		AC	502
+einer			ART	Indef.Fem.Dat.Sg	NK	502
+230seitigen		ADJA	Pos.Fem.Dat.Sg.Mix	NK	502
+,			$,	--		--	0
+reichbebilderten	ADJA	Pos.Fem.Dat.Sg.Mix	NK	502
+Broschüre		NN	Fem.Dat.Sg.*	NK	502
+gegeben			VVPP	--		HD	509
+wird			VAFIN	3.Sg.Pres.Ind	HD	510
+,			$,	--		--	0
+ist			VAFIN	3.Sg.Pres.Ind	HD	512
+auch			ADV	--		MO	507
+dargestellt		VVPP	--		PD	512
+,			$,	--		--	0
+wie			KOUS	--		MO	503
+seinerzeit		ADV	--		MO	503
+die			ART	Def.*.Nom.Pl	NK	504
+ordnungspolitischen	ADJA	Pos.*.Nom.Pl.Sw	NK	504
+Aufgaben		NN	Fem.Nom.Pl.*	NK	504
+verteilt		VVPP	--		HD	503
+waren			VAFIN	3.Pl.Past.Ind	HD	507
+.			$.	--		--	0
+#500			NP	--		GR	505
+#501			MPN	--		NK	506
+#502			PP	--		MO	509
+#503			VP	--		OC	507
+#504			NP	--		SB	507
+#505			NP	--		GR	508
+#506			PP	--		SBP	509
+#507			S	--		SB	512
+#508			PP	--		MO	509
+#509			VP	--		OC	510
+#510			S	--		RC	511
+#511			PP	--		MO	512
+#512			S	--		--	0
+#EOS 152
+#BOS 153 3 867324473 5
+So			ADV	--		MO	516
+gab			VVFIN	3.Sg.Past.Ind	HD	516
+es			PPER	3.Sg.Neut.Nom	SB	516
+eine			ART	Indef.Fem.Akk.Sg	NK	515
+Art			NN	Fem.Akk.Sg.*	NK	515
+Gesundheitspolizei	NN	Fem.Nom.Sg.*	NK	515
+,			$,	--		--	0
+die			PRELS	Fem.Nom.Sg	SB	507
+auch			ADV	--		MO	507
+die			ART	Def.*.Akk.Pl	NK	500
+Märkte			NN	Masc.Akk.Pl.*	NK	500
+überwachte		VVFIN	3.Sg.Past.Ind	HD	507
+,			$,	--		--	0
+etwa			ADV	--		MO	508
+faule			ADJA	Pos.*.Akk.Pl.St	NK	501
+Fische			NN	Masc.Akk.Pl.*	NK	501
+in			APPR	Akk		AC	502
+den			ART	Def.Masc.Akk.Sg	NK	502
+Main			NE	Masc.Akk.Sg	NK	502
+warf			VVFIN	3.Sg.Past.Ind	HD	508
+,			$,	--		--	0
+gepanschten		ADJA	Pos.Masc.Akk.Sg.St	NK	503
+Wein			NN	Masc.Akk.Sg.*	NK	503
+an			APPR	Dat		AC	509
+Ort			NN	Masc.Dat.Sg.*	CJ	504
+und			KON	--		CD	504
+Stelle			NN	Fem.Dat.Sg.*	CJ	504
+in			APPR	Akk		AC	505
+die			ART	Def.Fem.Akk.Sg	NK	505
+Gosse			NN	Fem.Akk.Sg.*	NK	505
+laufen			VVINF	--		HD	510
+ließ			VVFIN	3.Sg.Past.Ind	HD	512
+oder			KON	--		CD	514
+den			ART	Def.Masc.Akk.Sg	NK	506
+teuren			ADJA	Pos.Masc.Akk.Sg.Sw	NK	506
+(			$(	--		--	0
+falschen		ADJA	Pos.Masc.Akk.Sg.Sw	NK	506
+)			$(	--		--	0
+Safran			NN	Masc.Akk.Sg.*	NK	506
+verbrennen		VVINF	--		HD	511
+durfte			VMFIN	3.Sg.Past.Ind	HD	513
+.			$.	--		--	0
+#500			NP	--		OA	507
+#501			NP	--		OA	508
+#502			PP	--		MO	508
+#503			NP	--		OA	512
+#504			CNP	--		NK	509
+#505			PP	--		MO	510
+#506			NP	--		OA	511
+#507			S	--		CJ	514
+#508			S	--		CJ	514
+#509			PP	--		MO	512
+#510			VP	--		OC	512
+#511			VP	--		OC	513
+#512			S	--		CJ	514
+#513			S	--		CJ	514
+#514			CS	--		RC	515
+#515			NP	--		OA	516
+#516			S	--		--	0
+#EOS 153
+#BOS 155 5 851200299 5
+Mit			APPR	Dat		AC	502
+dem			ART	Def.Neut.Dat.Sg	NK	502
+Ende			NN	Neut.Dat.Sg.*	NK	502
+des			ART	Def.Masc.Gen.Sg	NK	500
+30jährigen		ADJA	Pos.Masc.Gen.Sg.Sw	NK	500
+Krieges			NN	Masc.Gen.Sg.*	NK	500
+trat			VVFIN	3.Sg.Past.Ind	HD	503
+ein			ART	Indef.Masc.Nom.Sg	NK	501
+Wandel			NN	Masc.Nom.Sg.*	NK	501
+ein			PTKVZ	--		SVP	503
+:			$.	--		--	0
+#500			NP	--		GR	502
+#501			NP	--		SB	503
+#502			PP	--		MO	503
+#503			S	--		--	0
+#EOS 155
+#BOS 156 3 876760746 5
+Schultheißen		NN	Masc.Nom.Pl.*	CJ	500
+und			KON	--		CD	500
+Ratsherren		NN	Masc.Nom.Pl.*	CJ	500
+genügten		VVFIN	3.Pl.Past.Ind	HD	505
+fortan			ADV	--		MO	505
+als			KOKOM	--		AC	501
+Autorität		NN	Fem.Nom.Sg.*	NK	501
+nicht			PTKNEG	--		HD	502
+mehr			ADV	--		MO	502
+,			$,	--		--	0
+es			PPER	3.Sg.Neut.Nom	PH	509
+wurden			VAFIN	3.Pl.Past.Ind	HD	510
+60			CARD	--		NK	508	%% F
+ausgesuchte		ADJA	Pos.*.Nom.Pl.St	NK	508
+Bürger			NN	Masc.Nom.Pl.*	NK	508
+als			KOKOM	--		AC	503
+Soldaten		NN	Masc.Nom.Pl.*	NK	503	%% F
+ausgebildet		VVPP	--		HD	506	%% F
+,			$,	--		--	0
+die			PRELS	*.Nom.Pl	SB	507	%% F N
+dann			ADV	--		MO	507
+auch			ADV	--		MO	507
+1616			CARD	--		MO	507
+den			ART	Def.Masc.Akk.Sg	NK	504
+Fettmilch-Aufstand	NN	Masc.Akk.Sg.*	NK	504
+blutig			ADJD	Pos		MO	507
+beendeten		VVFIN	3.Pl.Past.Ind	HD	507
+.			$.	--		--	0
+#500			CNP	--		SB	505
+#501			PP	--		MO	505
+#502			AVP	--		NG	505
+#503			PP	--		MO	506
+#504			NP	--		OA	507
+#505			S	--		CJ	511
+#506			VP	--		OC	510
+#507			S	--		RC	508
+#508			NP	--		RE	509
+#509			NP	--		SB	510
+#510			S	--		CJ	511
+#511			CS	--		--	0
+#EOS 156
+#BOS 230 3 867237543 7
+Die			ART	Def.*.Nom.Pl	NK	500
+Hochheimer		NN	Masc.Nom.Pl.*	NK	500
+haben			VAFIN	3.Pl.Pres.Ind	HD	505
+ihrem			PPOSAT	Masc.Dat.Sg	NK	501
+Fund			NN	Masc.Dat.Sg.*	NK	501
+jedoch			ADV	--		MO	504
+eine			ART	Indef.Fem.Akk.Sg	NK	503
+neue			ADJA	Pos.Fem.Akk.Sg.Mix	NK	503
+,			$,	--		--	0
+durchaus		ADV	--		MO	502
+angemessene		ADJA	Pos.Fem.Akk.Sg.Mix	HD	502
+Funktion		NN	Fem.Akk.Sg.*	NK	503
+verliehen		VVPP	--		HD	504
+:			$.	--		--	0
+#500			NP	--		SB	505
+#501			NP	--		DA	504
+#502			AP	--		NK	503
+#503			NP	--		OA	504
+#504			VP	--		OC	505
+#505			S	--		--	0
+#EOS 230
+#BOS 231 3 876926115 7
+Wenn			KOUS	--		CP	511
+die			ART	Def.*.Nom.Pl	NK	500
+Kelten			NN	Masc.Nom.Pl.*	NK	500
+ihre			PPOSAT	*.Akk.Pl	NK	501
+bedeutenden		ADJA	Pos.*.Akk.Pl.Mix	NK	501
+Führer			NN	Masc.Akk.Pl.*	NK	501
+mit			APPR	Dat		AC	508
+solch			PIDAT	*.*.*		MO	502
+einem			ART	Indef.Masc.Dat.Sg	HD	502
+Spiegel			NN	Masc.Dat.Sg.*	NK	508
+ehren			VVFIN	3.Pl.Pres.Ind	HD	511
+,			$,	--		--	0
+dann			ADV	--		PH	513
+können			VMFIN	1.Pl.Pres.Ind	HD	515
+wir			PPER	1.Pl.*.Nom	NK	503
+das			PDS	Neut.Akk.Sg	OA	504
+auch			ADV	--		MO	503
+tun			VVINF	--		HD	504
+,			$,	--		--	0
+mögen			VMFIN	3.Pl.Pres.Konj	HD	519
+sie			PPER	3.Pl.*.Nom	SB	519
+gedacht			VVPP	--		HD	517
+haben			VAINF	--		HD	518
+,			$,	--		--	0
+als			KOUS	--		CP	516
+sie			PPER	3.Pl.*.Nom	SB	516
+beschlossen		VVFIN	3.Pl.Past.Ind	HD	516
+,			$,	--		--	0
+Kopien			NN	Fem.Akk.Pl.*	NK	509
+des			ART	Def.Masc.Gen.Sg	NK	505
+Keltenspiegels		NN	Masc.Gen.Sg.*	NK	505
+für			APPR	Akk		AC	512
+besondere		ADJA	Pos.*.Akk.Pl.St	NK	512
+Leistungen		NN	Fem.Akk.Pl.*	NK	512
+auf			APPR	Dat		AC	510
+dem			ART	Def.Neut.Dat.Sg	NK	510
+Gebiet			NN	Neut.Dat.Sg.*	NK	510
+der			ART	Def.Fem.Gen.Sg	NK	506
+Heimatforschung		NN	Fem.Gen.Sg.*	NK	506
+zu			PTKZU	--		PM	507
+vergeben		VVINF	--		HD	507
+.			$.	--		--	0
+#500			NP	--		SB	511
+#501			NP	--		OA	511
+#502			AP	--		NK	508
+#503			NP	--		SB	515
+#504			VP	--		OC	515
+#505			NP	--		GR	509
+#506			NP	--		GR	510
+#507			VZ	--		HD	514
+#508			PP	--		MO	511
+#509			NP	--		OA	514
+#510			PP	--		MNR	512
+#511			S	--		RE	513
+#512			PP	--		MO	514
+#513			AVP	--		MO	515
+#514			VP	--		OC	516
+#515			S	--		OC	517
+#516			S	--		MO	517
+#517			VP	--		OC	518
+#518			VP	--		OC	519
+#519			S	--		--	0
+#EOS 231
+#BOS 263 9 863528844 9 %% kriegen...
+Es			PPER	3.Sg.Neut.Nom	SB	503
+wird			VAFIN	3.Sg.Pres.Ind	HD	503
+viel			ADV	--		MO	500
+experimentiert		VVPP	--		HD	500
+-			$(	--		--	0
+und			KON	--		CD	506
+das			PDS	Neut.Akk.Sg	OA	505
+kriegen			VVFIN	3.Pl.Pres.Ind	HD	505
+auch			ADV	--		MO	504
+die			ART	Def.*.Nom.Pl	NK	504
+Moderatoren		NN	Masc.Nom.Pl.*	NK	504
+des			ART	Def.Masc.Gen.Sg	NK	501
+Senders			NN	Masc.Gen.Sg.*	NK	501
+zu			PTKZU	--		PM	502
+spüren			VVINF	--		HD	502
+.			$.	--		--	0
+#500			VP	--		OC	503
+#501			NP	--		GR	504
+#502			VZ	--		OC	505
+#503			S	--		CJ	506
+#504			NP	--		SB	505
+#505			S	--		CJ	506
+#506			CS	--		--	0
+#EOS 263
+#BOS 264 3 872077806 9
+"			$(	--		--	0
+Als			KOKOM	--		AC	500
+Moderator		NN	Masc.Nom.Sg.*	NK	500
+wird			VAFIN	3.Sg.Pres.Ind	HD	509
+da			ADV	--		MO	504
+nur			ADV	--		MO	508
+noch			ADV	--		MO	508
+eingestellt		VVPP	--		HD	504
+,			$,	--		--	0
+wer			PWS	*.Nom.Sg	SB	508
+nicht			PTKNEG	--		NG	505
+viel			ADV	--		MO	505
+älter			ADJD	Comp		HD	505
+als			KOKOM	--		CM	501
+25			CARD	--		NK	501
+ist			VAFIN	3.Sg.Pres.Ind	HD	508
+"			$(	--		--	0
+,			$,	--		--	0
+hört			VVFIN	3.Sg.Pres.Ind	HD	511
+man			PIS	*.Nom.Sg	SB	511
+auf			APPR	Dat		AC	506
+den			ART	Def.*.Dat.Pl	NK	506
+Fluren			NN	Masc.Dat.Pl.*	NK	506
+des			ART	Def.Masc.Gen.Sg	NK	502
+Senders			NN	Masc.Gen.Sg.*	NK	502
+,			$,	--		--	0
+"			$(	--		--	0
+da			ADV	--		MO	507
+herrscht		VVFIN	3.Sg.Pres.Ind	HD	507
+der			ART	Def.Masc.Nom.Sg	NK	503
+totale			ADJA	Pos.Masc.Nom.Sg.Sw	NK	503
+Konkurrenzkampf		NN	Masc.Nom.Sg.*	NK	503
+"			$(	--		--	0
+.			$.	--		--	0
+#500			PP	--		MO	504
+#501			NP	--		CC	505
+#502			NP	--		GR	506
+#503			NP	--		SB	507
+#504			VP	--		OC	509
+#505			AP	--		PD	508
+#506			PP	--		MO	511
+#507			S	--		CJ	510
+#508			S	--		SB	509
+#509			S	--		CJ	510
+#510			CS	--		OC	511
+#511			S	--		--	0
+#EOS 264
+#BOS 326 5 855503170 9
+Aber			KON	--		JU	502
+für			APPR	Akk		AC	500
+die			ART	Def.*.Akk.Pl	NK	500
+Moderatoren		NN	Masc.Akk.Pl.*	NK	500
+versiegt		VVFIN	3.Sg.Pres.Ind	HD	502
+damit			PROAV	--		MO	502
+eine			ART	Indef.Fem.Nom.Sg	NK	501
+erkleckliche		ADJA	Pos.Fem.Nom.Sg.Mix	NK	501
+Einnahmequelle		NN	Fem.Nom.Sg.*	NK	501
+.			$.	--		--	0
+#500			PP	--		MO	502
+#501			NP	--		SB	502
+#502			S	--		--	0
+#EOS 326
+#BOS 327 3 876914404 9
+Von			APPR	Dat		AC	500
+einer			ART	Indef.Fem.Dat.Sg	NK	500
+bekannten		ADJA	Pos.Fem.Dat.Sg.Mix	NK	500
+HR-Stimme		NN	Fem.Dat.Sg.*	NK	500
+ist			VAFIN	3.Sg.Pres.Ind	HD	511
+der			ART	Def.Masc.Nom.Sg	NK	510
+Satz			NN	Masc.Nom.Sg.*	NK	510
+überliefert		VVPP	--		PD	511
+:			$.	--		--	0
+"			$(	--		--	0
+Wer			PWS	*.Nom.Sg	SB	507
+als			KOKOM	--		AC	501
+Moderator		NN	Masc.Nom.Sg.*	NK	501
+unter			APPR	Dat		AC	502
+100000			CARD	--		NK	502
+Mark			NN	Fem.Dat.Sg.*	NK	502
+nach			APPR	Dat		AC	503
+Hause			NN	Neut.Dat.Sg.*	NK	503
+geht			VVFIN	3.Sg.Pres.Ind	HD	507
+,			$,	--		--	0
+muß			VMFIN	3.Sg.Pres.Ind	HD	509
+blöd			ADJD	Pos		PD	504
+sein			VAINF	--		HD	504
+"			$(	--		--	0
+-			$(	--		--	0
+ein			ART	Indef.Masc.Nom.Sg	NK	505
+guter			ADJA	Pos.Masc.Nom.Sg.Mix	NK	505
+Teil			NN	Masc.Nom.Sg.*	NK	505
+davon			PROAV	--		PG	505
+kam			VVFIN	3.Sg.Past.Ind	HD	508
+aus			APPR	Dat		AC	506
+den			ART	Def.*.Dat.Pl	NK	506
+Werbespots		NN	Masc.Dat.Pl.*	NK	506
+.			$.	--		--	0
+#500			PP	--		MNR	510
+#501			PP	--		MO	507
+#502			PP	--		MO	507
+#503			PP	--		MO	507
+#504			VP	--		OC	509
+#505			NP	--		SB	508
+#506			PP	--		MO	508
+#507			S	--		SB	509
+#508			S	--		APP	509
+#509			S	--		NK	510
+#510			NP	--		SB	511
+#511			S	--		--	0
+#EOS 327
+#BOS 328 8 857398425 9 %% satzstellung im relativsatz
+"			$(	--		--	0
+Da			ADV	--		MO	504
+gibt			VVFIN	3.Sg.Pres.Ind	HD	504
+es			PPER	3.Sg.Neut.Nom	SB	504
+einige			PIS	*.Akk.Pl	NK	503
+im			APPRART	Dat.Neut	AC	500
+Haus			NN	Neut.Dat.Sg.*	NK	500
+,			$,	--		--	0
+die			PRELS	*.Nom.Pl	SB	502
+zocken			VVFIN	3.Pl.Pres.Ind	HD	502
+wirklich		ADJD	Pos		MO	502
+'			$(	--		--	0
+ne			ART	Indef.Fem.Akk.Sg	NK	501
+Menge			NN	Fem.Akk.Sg.*	NK	501
+Geld			NN	Neut.Nom.Sg.*	NK	501
+ab			PTKVZ	--		SVP	502
+.			$.	--		--	0
+"			$(	--		--	0
+#500			PP	--		MO	504
+#501			NP	--		OA	502
+#502			S	--		RC	503
+#503			NP	--		OA	504
+#504			S	--		--	0
+#EOS 328
+#BOS 330 3 867309510 9
+Er			PPER	3.Sg.Masc.Nom	SB	504
+gilt			VVFIN	3.Sg.Pres.Ind	HD	504
+als			KOKOM	--		AC	500
+"			$(	--		--	0
+Senkrechtstarter	NN	Masc.Nom.Sg.*	NK	500
+"			$(	--		--	0
+,			$,	--		--	0
+wurde			VAFIN	3.Sg.Past.Ind	HD	511
+gleich			ADV	Pos		MO	509
+zum			APPRART	Dat.Masc	AC	507
+verantwortlichen	ADJA	Pos.Masc.Dat.Sg.Sw	NK	507
+Redakteur		NN	Masc.Dat.Sg.*	NK	507
+für			APPR	Akk		AC	505
+die			ART	Def.Fem.Akk.Sg	NK	505
+Frühsendung		NN	Fem.Akk.Sg.*	NK	505
+"			$(	--		--	0
+Pop			NN	Masc.Nom.Sg.*	CJ	501
+und			KON	--		CD	501
+Weck			NN	Neut.Nom.Sg.*	CJ	501
+"			$(	--		--	0
+erhoben			VVPP	--		HD	509
+,			$,	--		--	0
+er			PPER	3.Sg.Masc.Nom	SB	502
+moderiert		VVFIN	3.Sg.Pres.Ind	HD	502
+selbst			ADV	--		MO	502
+-			$(	--		--	0
+und			KON	--		CD	512
+ist			VAFIN	3.Sg.Pres.Ind	HD	510
+die			ART	Def.Fem.Nom.Sg	NK	508
+große			ADJA	Pos.Fem.Nom.Sg.Sw	NK	508
+Hoffnung		NN	Fem.Nom.Sg.*	NK	508
+seines			PPOSAT	Masc.Gen.Sg	NK	506
+Chefs			NN	Masc.Gen.Sg.*	NK	506
+Jörg			NE	Masc.Nom.Sg	PNC	503
+Riemenschneider		NE	*.Nom.Sg	PNC	503
+.			$.	--		--	0
+#500			PP	--		MO	504
+#501			CNP	--		NK	505
+#502			S	--		CJ	512
+#503			MPN	--		NK	506
+#504			S	--		CJ	512
+#505			PP	--		MNR	507
+#506			NP	--		GR	508
+#507			PP	--		MO	509
+#508			NP	--		PD	510
+#509			VP	--		OC	511
+#510			S	--		CJ	512
+#511			S	--		CJ	512
+#512			CS	--		--	0
+#EOS 330
+#BOS 376 3 863369696 11
+"			$(	--		--	0
+Das			ART	Def.Neut.Nom.Sg	NK	505
+Kind			NN	Neut.Nom.Sg.*	NK	505
+im			APPRART	Dat.Neut	AC	500
+Zimmer			NN	Neut.Dat.Sg.*	NK	500
+schläft			VVFIN	3.Sg.Pres.Ind	HD	508
+in			APPR	Dat		AC	501
+guter			ADJA	Pos.Fem.Dat.Sg.St	NK	501
+Geborgenheit		NN	Fem.Dat.Sg.*	NK	501
+,			$,	--		--	0
+in			APPR	Dat		AC	502
+seinem			PPOSAT	Masc.Dat.Sg	NK	502
+Atem			NN	Masc.Dat.Sg.*	NK	502
+ist			VAFIN	3.Sg.Pres.Ind	HD	509
+schon			ADV	--		MO	507
+das			ART	Def.Neut.Nom.Sg	NK	506
+Getöse			NN	Neut.Nom.Sg.*	NK	506
+des			ART	Def.Masc.Gen.Sg	NK	503
+Krieges			NN	Masc.Gen.Sg.*	NK	503
+zu			PTKZU	--		PM	504
+hören			VVINF	--		HD	504
+.			$.	--		--	0
+#500			PP	--		MNR	505
+#501			PP	--		MO	508
+#502			PP	--		MO	507
+#503			NP	--		GR	506
+#504			VZ	--		HD	507
+#505			NP	--		SB	508
+#506			NP	--		SB	509
+#507			VP	--		OC	509
+#508			S	--		CJ	510
+#509			S	--		CJ	510
+#510			CS	--		--	0
+#EOS 376

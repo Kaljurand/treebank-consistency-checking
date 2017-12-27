@@ -1,0 +1,62 @@
+Three artificially created inconsistencies in a 89 sentence subset of Negra corpus
+and examples on how to detect them.
+
+Kaarel Kaljurand
+Fri May  7 15:40:26 EEST 2004
+
+
+Sentence 42:
+
+There is "PNC PNC PNC" --> NP
+Should be: "PNC PNC PNC" -> MPN
+
+Check with:
+
+./consistency.pl --key edge
+
+or even better:
+
+./consistency.pl --key word 
+
+-----
+
+Sentence 3:
+
+There is: "PTKZU VVINF" -->  VP
+Should be: "PTKZU VVINF" -->  VZ
+
+And this happens twice.
+
+Check with:
+
+./consistency.pl --key edge
+
+or:
+
+./consistency.pl --key pos
+
+-----
+
+Sentence 60:
+
+There is: "KOKOM NN" --> OA2
+Should be: "KOKOM NN" --> MO
+
+Check with:
+
+./consistency.pl --key pos --value edge
+
+----
+
+Sentence 263 (this I didn't modify):
+
+There is "PTKZU VVINF" -->  OC
+Mostly this is grouped as: HD
+
+Check with:
+
+./consistency.pl --key pos --value edge
+
+or even better:
+
+./consistency.pl --key pos --value edge --lc 4 --rc 4
